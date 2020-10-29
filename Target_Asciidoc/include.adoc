@@ -1,0 +1,3 @@
+﻿= Inclusión
+
+Vengo de un archivo de inclusión.

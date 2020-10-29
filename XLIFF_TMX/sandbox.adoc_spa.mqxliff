@@ -1,0 +1,302 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:mq="MQXliff" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+<file original="sandbox.adoc" mq:id="97bfebe3-9c73-4b10-9f75-70efb3953842" mq:projectid="a6ffa31a-4178-4717-8cf4-a0ac052fbcbb" source-language="en" target-language="es" datatype="x-chained">
+<header>
+<tool tool-id="MQ" tool-name="MemoQ" tool-version="9.3.13" tool-company="Kilgray" />
+<mq:export-path>\\fileserverhome\users$\jourikc\Desktop\Asciidoc\Source_Asciidoc\sandbox_spa.adoc</mq:export-path>
+<mq:docinformation mq:isabstract="isabstract" mq:hashistory="true" mq:docname="sandbox.adoc" mq:majorversion="1" mq:minorversion="2" mq:nosplitjoin="false" mq:langindepgroupid="32354987-8ae0-4d71-b47d-11f58631f74b" mq:multidocgroupid="f449f186-4fb4-417f-bc51-7bc13686a978" mq:origfile="\\fileserverhome\users$\jourikc\Desktop\Asciidoc\Source_Asciidoc\sandbox.adoc" mq:numberofwords="56" mq:filterconfigname="Asciidoc" mq:filterconfigserverurl="yamagata.memoqworld.com" mq:changetrackingenabledstates="Off,Off,Off,Off">
+<mq:versioninfos mq:majorversion="1"><mq:minorversioninfo mq:minorversion="0" mq:comment="" mq:createdthroughview="false" mq:createreason="Import" mq:creationtime="406082057" mq:creatoruser="jourikc" mq:tag=""><mq:details mq:type="MinorVersionDetailsImport"><![CDATA[<?xml version="1.0"?>
+<MinorVersionDetailsImport xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <FilePath>\\fileserverhome\users$\jourikc\Desktop\Asciidoc\Source_Asciidoc\sandbox.adoc</FilePath>
+</MinorVersionDetailsImport>]]></mq:details></mq:minorversioninfo>
+<mq:minorversioninfo mq:minorversion="1" mq:comment="" mq:createdthroughview="false" mq:createreason="Export" mq:creationtime="406082173" mq:creatoruser="jourikc" mq:tag=""><mq:details /></mq:minorversioninfo>
+<mq:minorversioninfo mq:minorversion="2" mq:comment="" mq:createdthroughview="false" mq:createreason="BilingualExport" mq:creationtime="406082194" mq:creatoruser="jourikc" mq:tag=""><mq:details mq:type="MinorVersionDetailsBilingExport"><![CDATA[<?xml version="1.0"?>
+<MinorVersionDetailsBilingExport xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <BilingualType>Xliff</BilingualType>
+  <TargetPath>\\fileserverhome\users$\jourikc\Desktop\Asciidoc\XLIFF_TMX\sandbox.adoc_spa.mqxliff</TargetPath>
+  <TwoColumpRtfProperties>MutipleDocuments</TwoColumpRtfProperties>
+  <BilingRtfProperties>EmptySegmentsWithMarkup</BilingRtfProperties>
+  <XliffProperties>IncludePreview</XliffProperties>
+</MinorVersionDetailsBilingExport>]]></mq:details></mq:minorversioninfo>
+</mq:versioninfos>
+<mq:tagdefinition alignhighlight="false" caseinsensitive="false" rawhtml="false" showitags="true" basicformat="false" supersubscript="false" xmlcommands="false"><mq:tagdefelement name="mq:ch" placeholder="false" tagrequired="Normal"><mq:tagdefattribute name="val" filtered="false" required="true" translatable="false" /></mq:tagdefelement><mq:tagdefelement name="mq:rxt" placeholder="false" tagrequired="Normal"><mq:tagdefattribute name="val" filtered="false" required="false" translatable="false" /><mq:tagdefattribute name="displaytext" filtered="false" required="false" translatable="false" /></mq:tagdefelement><mq:tagdefelement name="mq:rxt-req" placeholder="true" tagrequired="Required"><mq:tagdefattribute name="displaytext" filtered="true" required="true" translatable="false" /><mq:tagdefattribute name="val" filtered="true" required="true" translatable="false" /></mq:tagdefelement></mq:tagdefinition>
+<mq:doccomments />
+<mq:lqamodel><![CDATA[<XMLSerializedLQAModel xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><Version>1</Version><Name /><RevisionID>00000000-0000-0000-0000-000000000000</RevisionID><UseSeverityLevels>false</UseSeverityLevels><UsePenaltyPoints>false</UsePenaltyPoints><RequiresReviewerCommenting>false</RequiresReviewerCommenting><SeverityLevelNames /><ModelEntries /><PassFailCriterion><CountMultipleErrorOccuranceAsOne>false</CountMultipleErrorOccuranceAsOne><CritDefType>PenaltyPoints</CritDefType><PenaltyPointsNominator>0</PenaltyPointsNominator><PenaltyPointPerWordsDenominator>0</PenaltyPointPerWordsDenominator><NormalizedPenaltyScoreLimit>0</NormalizedPenaltyScoreLimit><CritDefinitionRules /></PassFailCriterion><QALQAMapping /><Timestamp>0001-01-01T00:00:00</Timestamp></XMLSerializedLQAModel>]]></mq:lqamodel>
+<mq:externalpreviewinfo>
+<mq:previewidsbylabels>
+<mq:previewidbylabel mq:label="1" mq:previewid="mQ-default-03a74a91-c976-405a-8d14-6cdf4fe77d5f-1" />
+<mq:previewidbylabel mq:label="2" mq:previewid="mQ-default-03a74a91-c976-405a-8d14-6cdf4fe77d5f-2" />
+<mq:previewidbylabel mq:label="3" mq:previewid="mQ-default-03a74a91-c976-405a-8d14-6cdf4fe77d5f-3" />
+<mq:previewidbylabel mq:label="4" mq:previewid="mQ-default-03a74a91-c976-405a-8d14-6cdf4fe77d5f-4" />
+<mq:previewidbylabel mq:label="5" mq:previewid="mQ-default-03a74a91-c976-405a-8d14-6cdf4fe77d5f-5" />
+<mq:previewidbylabel mq:label="6" mq:previewid="mQ-default-03a74a91-c976-405a-8d14-6cdf4fe77d5f-6" />
+<mq:previewidbylabel mq:label="7" mq:previewid="mQ-default-03a74a91-c976-405a-8d14-6cdf4fe77d5f-7" />
+<mq:previewidbylabel mq:label="8" mq:previewid="mQ-default-03a74a91-c976-405a-8d14-6cdf4fe77d5f-8" />
+<mq:previewidbylabel mq:label="9" mq:previewid="mQ-default-03a74a91-c976-405a-8d14-6cdf4fe77d5f-9" />
+<mq:previewidbylabel mq:label="10" mq:previewid="mQ-default-03a74a91-c976-405a-8d14-6cdf4fe77d5f-10" />
+<mq:previewidbylabel mq:label="11" mq:previewid="mQ-default-03a74a91-c976-405a-8d14-6cdf4fe77d5f-11" />
+<mq:previewidbylabel mq:label="12" mq:previewid="mQ-default-03a74a91-c976-405a-8d14-6cdf4fe77d5f-12" />
+<mq:previewidbylabel mq:label="13" mq:previewid="mQ-default-03a74a91-c976-405a-8d14-6cdf4fe77d5f-13" />
+<mq:previewidbylabel mq:label="14" mq:previewid="mQ-default-03a74a91-c976-405a-8d14-6cdf4fe77d5f-14" />
+<mq:previewidbylabel mq:label="15" mq:previewid="mQ-default-03a74a91-c976-405a-8d14-6cdf4fe77d5f-15" />
+</mq:previewidsbylabels>
+</mq:externalpreviewinfo>
+</mq:docinformation>
+</header>
+<body>
+<trans-unit id="1" mq:minorversionend="2" mq:minorversionstart="1" mq:status="ManuallyConfirmed" mq:percent="101" mq:segmentguid="16c59e71-3592-4b60-b4c7-96c7b47946e9" mq:translatorcommitmatchrate="101" mq:translatorcommitusername="" mq:translatorcommittimestamp="2020-10-29T13:03:01Z" mq:lastchangedtimestamp="2020-10-29T13:03:01Z" mq:lastchanginguser="jourikc" mq:maxlengthchars="-1" mq:nosplitjoin="false" mq:firstlabel="1" mq:lastlabel="1" mq:autosplitjoinstate="0" mq:lastmodifrole="0" mq:multipleexactmatch="false">
+<source xml:space="preserve" mq:segpart="1">Sandbox</source>
+<target xml:space="preserve">Caja de arena</target>
+<context-group>
+<context context-type="x-mmq-structural-context"></context>
+</context-group>
+<mq:minorversions>
+<mq:historical-unit mq:minorversionend="0" mq:minorversionstart="0" mq:status="NotStarted" mq:segmentguid="16c59e71-3592-4b60-b4c7-96c7b47946e9" mq:lastchangedtimestamp="0001-01-01T00:00:00Z" mq:maxlengthchars="-1" mq:nosplitjoin="false" mq:firstlabel="1" mq:lastlabel="1" mq:autosplitjoinstate="0" mq:lastmodifrole="0" mq:multipleexactmatch="false">
+<source xml:space="preserve" mq:segpart="1" mq:hasfollowingobject="hasfollowingobject">Sandbox</source>
+<target xml:space="preserve"></target>
+<context-group>
+<context context-type="x-mmq-structural-context"></context>
+</context-group>
+<mq:startingws xml:space="preserve" />
+<mq:endingws xml:space="preserve" />
+<mq:commitinfos xmlns="MQXliff" /><mq:nosplitjoins />
+<mq:originalsource edited="false" />
+</mq:historical-unit>
+</mq:minorversions>
+<mq:startingws xml:space="preserve" />
+<mq:endingws xml:space="preserve" />
+<mq:commitinfos xmlns="MQXliff"><commitinfo matchrate="101" role="1000" timestamp="2020-10-29T13:03:01Z" username="" editingtime="0" /></mq:commitinfos><mq:nosplitjoins />
+<mq:originalsource edited="false" />
+<mq:insertedmatch matchtype="0" source="Asciidoc samples / jourikc" matchrate="101" originalmatchrate="0" ambiguousexact="false" hitfororiginalsegementversion="false" />
+</trans-unit>
+<trans-unit id="2" mq:minorversionend="2" mq:minorversionstart="1" mq:status="ManuallyConfirmed" mq:percent="101" mq:segmentguid="d1cef410-adc0-4e40-b217-cee3154047fe" mq:translatorcommitmatchrate="101" mq:translatorcommitusername="" mq:translatorcommittimestamp="2020-10-29T13:03:01Z" mq:lastchangedtimestamp="2020-10-29T13:03:01Z" mq:lastchanginguser="jourikc" mq:maxlengthchars="-1" mq:nosplitjoin="false" mq:firstlabel="2" mq:lastlabel="2" mq:autosplitjoinstate="0" mq:lastmodifrole="0" mq:multipleexactmatch="false">
+<source xml:space="preserve" mq:segpart="2">Here's an example of a <ph id="1">&lt;mq:rxt displaytext=&quot;link&quot; val=&quot;link:moredocs/another&quot;&gt;</ph><ph id="2">&lt;mq:rxt displaytext=&quot;{outfilesuffix}&quot; val=&quot;{outfilesuffix}&quot; /&gt;</ph><bpt id="3" rid="1">&lt;mq:rxt displaytext=&quot;[&quot; val=&quot;[&quot;&gt;</bpt>relative link<ept id="4" rid="1">&lt;/mq:rxt displaytext=&quot;]&quot; val=&quot;]&quot;&gt;</ept> to a file in a sub directory using the link inline macro.</source>
+<target xml:space="preserve">He aquí un ejemplo de un <ph id="1">&lt;mq:rxt displaytext=&quot;link&quot; val=&quot;link:moredocs/another&quot;&gt;</ph><ph id="2">&lt;mq:rxt displaytext=&quot;{outfilesuffix}&quot; val=&quot;{outfilesuffix}&quot; /&gt;</ph><bpt id="3" rid="2">&lt;mq:rxt displaytext=&quot;[&quot; val=&quot;[&quot;&gt;</bpt>enlace relativo<ept id="4" rid="2">&lt;/mq:rxt displaytext=&quot;]&quot; val=&quot;]&quot;&gt;</ept> a un archivo en un sub-directorio usando el enlace de macro en línea.</target>
+<context-group>
+<context context-type="x-mmq-structural-context"></context>
+</context-group>
+<mq:minorversions>
+<mq:historical-unit mq:minorversionend="0" mq:minorversionstart="0" mq:status="NotStarted" mq:segmentguid="d1cef410-adc0-4e40-b217-cee3154047fe" mq:lastchangedtimestamp="0001-01-01T00:00:00Z" mq:maxlengthchars="-1" mq:nosplitjoin="false" mq:firstlabel="2" mq:lastlabel="2" mq:autosplitjoinstate="0" mq:lastmodifrole="0" mq:multipleexactmatch="false">
+<source xml:space="preserve" mq:segpart="2" mq:hasfollowingobject="hasfollowingobject">Here's an example of a <ph id="1">&lt;mq:rxt displaytext=&quot;link&quot; val=&quot;link:moredocs/another&quot;&gt;</ph><ph id="2">&lt;mq:rxt displaytext=&quot;{outfilesuffix}&quot; val=&quot;{outfilesuffix}&quot; /&gt;</ph><bpt id="3" rid="1">&lt;mq:rxt displaytext=&quot;[&quot; val=&quot;[&quot;&gt;</bpt>relative link<ept id="4" rid="1">&lt;/mq:rxt displaytext=&quot;]&quot; val=&quot;]&quot;&gt;</ept> to a file in a sub directory using the link inline macro.</source>
+<target xml:space="preserve"></target>
+<context-group>
+<context context-type="x-mmq-structural-context"></context>
+</context-group>
+<mq:startingws xml:space="preserve" />
+<mq:endingws xml:space="preserve" />
+<mq:commitinfos xmlns="MQXliff" /><mq:nosplitjoins />
+<mq:originalsource edited="false" />
+</mq:historical-unit>
+</mq:minorversions>
+<mq:startingws xml:space="preserve" />
+<mq:endingws xml:space="preserve" />
+<mq:commitinfos xmlns="MQXliff"><commitinfo matchrate="101" role="1000" timestamp="2020-10-29T13:03:01Z" username="" editingtime="0" /></mq:commitinfos><mq:nosplitjoins />
+<mq:originalsource edited="false" />
+<mq:insertedmatch matchtype="0" source="Asciidoc samples / jourikc" matchrate="101" originalmatchrate="0" ambiguousexact="false" hitfororiginalsegementversion="false" />
+</trans-unit>
+<trans-unit id="3" mq:minorversionend="2" mq:minorversionstart="1" mq:status="ManuallyConfirmed" mq:percent="101" mq:segmentguid="36058e8a-4472-4e86-8225-51e8061965a2" mq:translatorcommitmatchrate="101" mq:translatorcommitusername="" mq:translatorcommittimestamp="2020-10-29T13:03:01Z" mq:lastchangedtimestamp="2020-10-29T13:03:01Z" mq:lastchanginguser="jourikc" mq:maxlengthchars="-1" mq:nosplitjoin="false" mq:firstlabel="3" mq:lastlabel="3" mq:autosplitjoinstate="0" mq:lastmodifrole="0" mq:multipleexactmatch="false">
+<source xml:space="preserve" mq:segpart="3">Here's an example of a <bpt id="1" rid="1">&lt;mq:rxt displaytext=&quot;&amp;lt;&amp;lt;&quot; val=&quot;&amp;lt;&amp;lt;moredocs/another#,&quot;&gt;</bpt>relative link<ept id="2" rid="1">&lt;/mq:rxt displaytext=&quot;&amp;gt;&amp;gt;&quot; val=&quot;&amp;gt;&amp;gt;&quot;&gt;</ept> to a file in a sub directory using the inter-document xref inline macro.</source>
+<target xml:space="preserve">He aquí un ejemplo de un enlace <bpt id="1" rid="2">&lt;mq:rxt displaytext=&quot;&amp;lt;&amp;lt;&quot; val=&quot;&amp;lt;&amp;lt;moredocs/another#,&quot;&gt;</bpt>relativo<ept id="2" rid="2">&lt;/mq:rxt displaytext=&quot;&amp;gt;&amp;gt;&quot; val=&quot;&amp;gt;&amp;gt;&quot;&gt;</ept> a un archivo en un subdirectorio utilizando la macro inline xref inter-documento.</target>
+<context-group>
+<context context-type="x-mmq-structural-context"></context>
+</context-group>
+<mq:minorversions>
+<mq:historical-unit mq:minorversionend="0" mq:minorversionstart="0" mq:status="NotStarted" mq:segmentguid="36058e8a-4472-4e86-8225-51e8061965a2" mq:lastchangedtimestamp="0001-01-01T00:00:00Z" mq:maxlengthchars="-1" mq:nosplitjoin="false" mq:firstlabel="3" mq:lastlabel="3" mq:autosplitjoinstate="0" mq:lastmodifrole="0" mq:multipleexactmatch="false">
+<source xml:space="preserve" mq:segpart="3" mq:hasfollowingobject="hasfollowingobject">Here's an example of a <bpt id="1" rid="1">&lt;mq:rxt displaytext=&quot;&amp;lt;&amp;lt;&quot; val=&quot;&amp;lt;&amp;lt;moredocs/another#,&quot;&gt;</bpt>relative link<ept id="2" rid="1">&lt;/mq:rxt displaytext=&quot;&amp;gt;&amp;gt;&quot; val=&quot;&amp;gt;&amp;gt;&quot;&gt;</ept> to a file in a sub directory using the inter-document xref inline macro.</source>
+<target xml:space="preserve"></target>
+<context-group>
+<context context-type="x-mmq-structural-context"></context>
+</context-group>
+<mq:startingws xml:space="preserve" />
+<mq:endingws xml:space="preserve" />
+<mq:commitinfos xmlns="MQXliff" /><mq:nosplitjoins />
+<mq:originalsource edited="false" />
+</mq:historical-unit>
+</mq:minorversions>
+<mq:startingws xml:space="preserve" />
+<mq:endingws xml:space="preserve" />
+<mq:commitinfos xmlns="MQXliff"><commitinfo matchrate="101" role="1000" timestamp="2020-10-29T13:03:01Z" username="" editingtime="0" /></mq:commitinfos><mq:nosplitjoins />
+<mq:originalsource edited="false" />
+<mq:insertedmatch matchtype="0" source="Asciidoc samples / jourikc" matchrate="101" originalmatchrate="0" ambiguousexact="false" hitfororiginalsegementversion="false" />
+</trans-unit>
+<trans-unit id="4" mq:minorversionend="2" mq:minorversionstart="1" mq:status="ManuallyConfirmed" mq:percent="100" mq:segmentguid="8ebcc3fc-c181-44dc-bc7d-dd993e645eff" mq:translatorcommitmatchrate="100" mq:translatorcommitusername="" mq:translatorcommittimestamp="2020-10-29T13:03:01Z" mq:lastchangedtimestamp="2020-10-29T13:03:01Z" mq:lastchanginguser="jourikc" mq:maxlengthchars="-1" mq:nosplitjoin="false" mq:firstlabel="4" mq:lastlabel="9" mq:autosplitjoinstate="0" mq:lastmodifrole="0" mq:multipleexactmatch="false">
+<source xml:space="preserve" mq:segpart="9" mq:hasfollowingobject="hasfollowingobject"><bpt id="1" rid="1">&lt;mq:rxt displaytext=&quot;&amp;lt;table width=&amp;quot;100%&amp;quot;&amp;gt;&quot; val=&quot;&amp;lt;table width=&amp;quot;100%&amp;quot;&amp;gt;&quot;&gt;</bpt><x id="2" /><ph id="3">&lt;mq:rxt displaytext=&quot;SPACE&quot; val=&quot;  &quot; /&gt;</ph><bpt id="4" rid="2">&lt;mq:rxt displaytext=&quot;&amp;lt;tr&amp;gt;&quot; val=&quot;&amp;lt;tr&amp;gt;&quot;&gt;</bpt><x id="5" /><ph id="6">&lt;mq:rxt displaytext=&quot;SPACE&quot; val=&quot;    &quot; /&gt;</ph><bpt id="7" rid="3">&lt;mq:rxt displaytext=&quot;&amp;lt;td width=&amp;quot;20%&amp;quot;&amp;gt;&quot; val=&quot;&amp;lt;td width=&amp;quot;20%&amp;quot;&amp;gt;&quot;&gt;</bpt>20%<ept id="8" rid="3">&lt;/mq:rxt displaytext=&quot;&amp;lt;/td&amp;gt;&quot; val=&quot;&amp;lt;/td&amp;gt;&quot;&gt;</ept><x id="9" /><ph id="10">&lt;mq:rxt displaytext=&quot;SPACE&quot; val=&quot;    &quot; /&gt;</ph><bpt id="11" rid="4">&lt;mq:rxt displaytext=&quot;&amp;lt;td width=&amp;quot;80%&amp;quot;&amp;gt;&quot; val=&quot;&amp;lt;td width=&amp;quot;80%&amp;quot;&amp;gt;&quot;&gt;</bpt>80%<ept id="12" rid="4">&lt;/mq:rxt displaytext=&quot;&amp;lt;/td&amp;gt;&quot; val=&quot;&amp;lt;/td&amp;gt;&quot;&gt;</ept><x id="13" /><ph id="14">&lt;mq:rxt displaytext=&quot;SPACE&quot; val=&quot;  &quot; /&gt;</ph><ept id="15" rid="2">&lt;/mq:rxt displaytext=&quot;&amp;lt;/tr&amp;gt;&quot; val=&quot;&amp;lt;/tr&amp;gt;&quot;&gt;</ept><x id="16" /><ept id="17" rid="1">&lt;/mq:rxt displaytext=&quot;&amp;lt;/table&amp;gt;&quot; val=&quot;&amp;lt;/table&amp;gt;&quot;&gt;</ept></source>
+<target xml:space="preserve"><bpt id="1" rid="5">&lt;mq:rxt displaytext=&quot;&amp;lt;table width=&amp;quot;100%&amp;quot;&amp;gt;&quot; val=&quot;&amp;lt;table width=&amp;quot;100%&amp;quot;&amp;gt;&quot;&gt;</bpt><x id="2" /><ph id="3">&lt;mq:rxt displaytext=&quot;SPACE&quot; val=&quot;  &quot; /&gt;</ph><bpt id="4" rid="6">&lt;mq:rxt displaytext=&quot;&amp;lt;tr&amp;gt;&quot; val=&quot;&amp;lt;tr&amp;gt;&quot;&gt;</bpt><x id="5" /><ph id="6">&lt;mq:rxt displaytext=&quot;SPACE&quot; val=&quot;    &quot; /&gt;</ph><bpt id="7" rid="7">&lt;mq:rxt displaytext=&quot;&amp;lt;td width=&amp;quot;20%&amp;quot;&amp;gt;&quot; val=&quot;&amp;lt;td width=&amp;quot;20%&amp;quot;&amp;gt;&quot;&gt;</bpt>20%<ept id="8" rid="7">&lt;/mq:rxt displaytext=&quot;&amp;lt;/td&amp;gt;&quot; val=&quot;&amp;lt;/td&amp;gt;&quot;&gt;</ept><x id="9" /><ph id="10">&lt;mq:rxt displaytext=&quot;SPACE&quot; val=&quot;    &quot; /&gt;</ph><bpt id="11" rid="8">&lt;mq:rxt displaytext=&quot;&amp;lt;td width=&amp;quot;80%&amp;quot;&amp;gt;&quot; val=&quot;&amp;lt;td width=&amp;quot;80%&amp;quot;&amp;gt;&quot;&gt;</bpt>80%<ept id="12" rid="8">&lt;/mq:rxt displaytext=&quot;&amp;lt;/td&amp;gt;&quot; val=&quot;&amp;lt;/td&amp;gt;&quot;&gt;</ept><x id="13" /><ph id="14">&lt;mq:rxt displaytext=&quot;SPACE&quot; val=&quot;  &quot; /&gt;</ph><ept id="15" rid="6">&lt;/mq:rxt displaytext=&quot;&amp;lt;/tr&amp;gt;&quot; val=&quot;&amp;lt;/tr&amp;gt;&quot;&gt;</ept><x id="16" /><ept id="17" rid="5">&lt;/mq:rxt displaytext=&quot;&amp;lt;/table&amp;gt;&quot; val=&quot;&amp;lt;/table&amp;gt;&quot;&gt;</ept></target>
+<context-group>
+<context context-type="x-mmq-structural-context"></context>
+</context-group>
+<mq:minorversions>
+<mq:historical-unit mq:minorversionend="0" mq:minorversionstart="0" mq:status="NotStarted" mq:segmentguid="8ebcc3fc-c181-44dc-bc7d-dd993e645eff" mq:lastchangedtimestamp="0001-01-01T00:00:00Z" mq:maxlengthchars="-1" mq:nosplitjoin="false" mq:firstlabel="4" mq:lastlabel="9" mq:autosplitjoinstate="0" mq:lastmodifrole="0" mq:multipleexactmatch="false">
+<source xml:space="preserve" mq:segpart="9" mq:hasfollowingobject="hasfollowingobject"><bpt id="1" rid="1">&lt;mq:rxt displaytext=&quot;&amp;lt;table width=&amp;quot;100%&amp;quot;&amp;gt;&quot; val=&quot;&amp;lt;table width=&amp;quot;100%&amp;quot;&amp;gt;&quot;&gt;</bpt><x id="2" /><ph id="3">&lt;mq:rxt displaytext=&quot;SPACE&quot; val=&quot;  &quot; /&gt;</ph><bpt id="4" rid="2">&lt;mq:rxt displaytext=&quot;&amp;lt;tr&amp;gt;&quot; val=&quot;&amp;lt;tr&amp;gt;&quot;&gt;</bpt><x id="5" /><ph id="6">&lt;mq:rxt displaytext=&quot;SPACE&quot; val=&quot;    &quot; /&gt;</ph><bpt id="7" rid="3">&lt;mq:rxt displaytext=&quot;&amp;lt;td width=&amp;quot;20%&amp;quot;&amp;gt;&quot; val=&quot;&amp;lt;td width=&amp;quot;20%&amp;quot;&amp;gt;&quot;&gt;</bpt>20%<ept id="8" rid="3">&lt;/mq:rxt displaytext=&quot;&amp;lt;/td&amp;gt;&quot; val=&quot;&amp;lt;/td&amp;gt;&quot;&gt;</ept><x id="9" /><ph id="10">&lt;mq:rxt displaytext=&quot;SPACE&quot; val=&quot;    &quot; /&gt;</ph><bpt id="11" rid="4">&lt;mq:rxt displaytext=&quot;&amp;lt;td width=&amp;quot;80%&amp;quot;&amp;gt;&quot; val=&quot;&amp;lt;td width=&amp;quot;80%&amp;quot;&amp;gt;&quot;&gt;</bpt>80%<ept id="12" rid="4">&lt;/mq:rxt displaytext=&quot;&amp;lt;/td&amp;gt;&quot; val=&quot;&amp;lt;/td&amp;gt;&quot;&gt;</ept><x id="13" /><ph id="14">&lt;mq:rxt displaytext=&quot;SPACE&quot; val=&quot;  &quot; /&gt;</ph><ept id="15" rid="2">&lt;/mq:rxt displaytext=&quot;&amp;lt;/tr&amp;gt;&quot; val=&quot;&amp;lt;/tr&amp;gt;&quot;&gt;</ept><x id="16" /><ept id="17" rid="1">&lt;/mq:rxt displaytext=&quot;&amp;lt;/table&amp;gt;&quot; val=&quot;&amp;lt;/table&amp;gt;&quot;&gt;</ept></source>
+<target xml:space="preserve"></target>
+<context-group>
+<context context-type="x-mmq-structural-context"></context>
+</context-group>
+<mq:startingws xml:space="preserve" />
+<mq:endingws xml:space="preserve" />
+<mq:commitinfos xmlns="MQXliff" /><mq:nosplitjoins />
+<mq:originalsource edited="false" />
+</mq:historical-unit>
+</mq:minorversions>
+<mq:startingws xml:space="preserve" />
+<mq:endingws xml:space="preserve" />
+<mq:commitinfos xmlns="MQXliff"><commitinfo matchrate="100" role="1000" timestamp="2020-10-29T13:03:01Z" username="" editingtime="0" /></mq:commitinfos><mq:nosplitjoins />
+<mq:originalsource edited="false" />
+<mq:insertedmatch matchtype="0" source="Asciidoc samples / jourikc" matchrate="100" originalmatchrate="0" ambiguousexact="false" hitfororiginalsegementversion="false" />
+</trans-unit>
+<trans-unit id="5" mq:minorversionend="2" mq:minorversionstart="1" mq:status="ManuallyConfirmed" mq:percent="101" mq:segmentguid="a5ac831b-b3f0-482c-8fc7-25cdc9ee4169" mq:translatorcommitmatchrate="101" mq:translatorcommitusername="" mq:translatorcommittimestamp="2020-10-29T13:03:01Z" mq:lastchangedtimestamp="2020-10-29T13:03:01Z" mq:lastchanginguser="jourikc" mq:maxlengthchars="-1" mq:nosplitjoin="false" mq:firstlabel="10" mq:lastlabel="10" mq:autosplitjoinstate="0" mq:lastmodifrole="0" mq:multipleexactmatch="false">
+<source xml:space="preserve" mq:segpart="10">What's This About?</source>
+<target xml:space="preserve">¿De qué se trata?</target>
+<context-group>
+<context context-type="x-mmq-structural-context"></context>
+</context-group>
+<mq:minorversions>
+<mq:historical-unit mq:minorversionend="0" mq:minorversionstart="0" mq:status="NotStarted" mq:segmentguid="a5ac831b-b3f0-482c-8fc7-25cdc9ee4169" mq:lastchangedtimestamp="0001-01-01T00:00:00Z" mq:maxlengthchars="-1" mq:nosplitjoin="false" mq:firstlabel="10" mq:lastlabel="10" mq:autosplitjoinstate="0" mq:lastmodifrole="0" mq:multipleexactmatch="false">
+<source xml:space="preserve" mq:segpart="10" mq:hasfollowingobject="hasfollowingobject">What's This About?</source>
+<target xml:space="preserve"></target>
+<context-group>
+<context context-type="x-mmq-structural-context"></context>
+</context-group>
+<mq:startingws xml:space="preserve" />
+<mq:endingws xml:space="preserve" />
+<mq:commitinfos xmlns="MQXliff" /><mq:nosplitjoins />
+<mq:originalsource edited="false" />
+</mq:historical-unit>
+</mq:minorversions>
+<mq:startingws xml:space="preserve" />
+<mq:endingws xml:space="preserve" />
+<mq:commitinfos xmlns="MQXliff"><commitinfo matchrate="101" role="1000" timestamp="2020-10-29T13:03:01Z" username="" editingtime="0" /></mq:commitinfos><mq:nosplitjoins />
+<mq:originalsource edited="false" />
+<mq:insertedmatch matchtype="0" source="Asciidoc samples / jourikc" matchrate="101" originalmatchrate="0" ambiguousexact="false" hitfororiginalsegementversion="false" />
+</trans-unit>
+<trans-unit id="6" mq:minorversionend="2" mq:minorversionstart="1" mq:status="ManuallyConfirmed" mq:percent="101" mq:segmentguid="b5dd5787-6b44-4aa0-93a0-148e1f16f11e" mq:translatorcommitmatchrate="101" mq:translatorcommitusername="" mq:translatorcommittimestamp="2020-10-29T13:03:01Z" mq:lastchangedtimestamp="2020-10-29T13:03:01Z" mq:lastchanginguser="jourikc" mq:maxlengthchars="-1" mq:nosplitjoin="false" mq:firstlabel="11" mq:lastlabel="11" mq:autosplitjoinstate="0" mq:lastmodifrole="0" mq:multipleexactmatch="false">
+<source xml:space="preserve" mq:segpart="11">It's a sandbox.</source>
+<target xml:space="preserve">Es una caja de arena.</target>
+<context-group>
+<context context-type="x-mmq-structural-context"></context>
+</context-group>
+<mq:minorversions>
+<mq:historical-unit mq:minorversionend="0" mq:minorversionstart="0" mq:status="NotStarted" mq:segmentguid="b5dd5787-6b44-4aa0-93a0-148e1f16f11e" mq:lastchangedtimestamp="0001-01-01T00:00:00Z" mq:maxlengthchars="-1" mq:nosplitjoin="false" mq:firstlabel="11" mq:lastlabel="11" mq:autosplitjoinstate="0" mq:lastmodifrole="0" mq:multipleexactmatch="false">
+<source xml:space="preserve" mq:segpart="11" mq:hasfollowingobject="hasfollowingobject">It's a sandbox.</source>
+<target xml:space="preserve"></target>
+<context-group>
+<context context-type="x-mmq-structural-context"></context>
+</context-group>
+<mq:startingws xml:space="preserve" />
+<mq:endingws xml:space="preserve" />
+<mq:commitinfos xmlns="MQXliff" /><mq:nosplitjoins />
+<mq:originalsource edited="false" />
+</mq:historical-unit>
+</mq:minorversions>
+<mq:startingws xml:space="preserve" />
+<mq:endingws xml:space="preserve" />
+<mq:commitinfos xmlns="MQXliff"><commitinfo matchrate="101" role="1000" timestamp="2020-10-29T13:03:01Z" username="" editingtime="0" /></mq:commitinfos><mq:nosplitjoins />
+<mq:originalsource edited="false" />
+<mq:insertedmatch matchtype="0" source="Asciidoc samples / jourikc" matchrate="101" originalmatchrate="0" ambiguousexact="false" hitfororiginalsegementversion="false" />
+</trans-unit>
+<trans-unit id="7" mq:minorversionend="2" mq:minorversionstart="1" mq:status="ManuallyConfirmed" mq:percent="101" mq:segmentguid="a3054761-bbef-4c9f-bb36-1001be01f9e6" mq:translatorcommitmatchrate="101" mq:translatorcommitusername="" mq:translatorcommittimestamp="2020-10-29T13:03:01Z" mq:lastchangedtimestamp="2020-10-29T13:03:01Z" mq:lastchanginguser="jourikc" mq:maxlengthchars="-1" mq:nosplitjoin="false" mq:firstlabel="12" mq:lastlabel="12" mq:autosplitjoinstate="0" mq:lastmodifrole="0" mq:multipleexactmatch="false">
+<source xml:space="preserve" mq:segpart="12">foo/bar</source>
+<target xml:space="preserve">foo/bar</target>
+<context-group>
+<context context-type="x-mmq-structural-context"></context>
+</context-group>
+<mq:minorversions>
+<mq:historical-unit mq:minorversionend="0" mq:minorversionstart="0" mq:status="NotStarted" mq:segmentguid="a3054761-bbef-4c9f-bb36-1001be01f9e6" mq:lastchangedtimestamp="0001-01-01T00:00:00Z" mq:maxlengthchars="-1" mq:nosplitjoin="false" mq:firstlabel="12" mq:lastlabel="12" mq:autosplitjoinstate="0" mq:lastmodifrole="0" mq:multipleexactmatch="false">
+<source xml:space="preserve" mq:segpart="12" mq:hasfollowingobject="hasfollowingobject">foo/bar</source>
+<target xml:space="preserve"></target>
+<context-group>
+<context context-type="x-mmq-structural-context"></context>
+</context-group>
+<mq:startingws xml:space="preserve" />
+<mq:endingws xml:space="preserve" />
+<mq:commitinfos xmlns="MQXliff" /><mq:nosplitjoins />
+<mq:originalsource edited="false" />
+</mq:historical-unit>
+</mq:minorversions>
+<mq:startingws xml:space="preserve" />
+<mq:endingws xml:space="preserve" />
+<mq:commitinfos xmlns="MQXliff"><commitinfo matchrate="101" role="1000" timestamp="2020-10-29T13:03:01Z" username="" editingtime="0" /></mq:commitinfos><mq:nosplitjoins />
+<mq:originalsource edited="false" />
+<mq:insertedmatch matchtype="0" source="Asciidoc samples / jourikc" matchrate="101" originalmatchrate="0" ambiguousexact="false" hitfororiginalsegementversion="false" />
+</trans-unit>
+<trans-unit id="8" mq:minorversionend="2" mq:minorversionstart="1" mq:status="ManuallyConfirmed" mq:percent="101" mq:segmentguid="d5d35bbb-bf59-4ad6-aa39-6d6aef05e888" mq:translatorcommitmatchrate="101" mq:translatorcommitusername="" mq:translatorcommittimestamp="2020-10-29T13:03:01Z" mq:lastchangedtimestamp="2020-10-29T13:03:01Z" mq:lastchanginguser="jourikc" mq:maxlengthchars="-1" mq:nosplitjoin="false" mq:firstlabel="13" mq:lastlabel="13" mq:autosplitjoinstate="0" mq:lastmodifrole="0" mq:multipleexactmatch="false">
+<source xml:space="preserve" mq:segpart="13">About sub-section 1.1</source>
+<target xml:space="preserve">Acerca de la sub-sección 1.1</target>
+<context-group>
+<context context-type="x-mmq-structural-context"></context>
+</context-group>
+<mq:warnings40>
+<mq:errorwarning mq:errorwarning-code="03061" mq:errorwarning-categoryid="4" mq:errorwarning-ignorable="errorwarning-ignorable" mq:errorwarning-shorttext="The number 1.1 has invalid format according to target language settings" mq:errorwarning-problemname="non-standard number format in the target" mq:errorwarning-longdesc="" mq:errorwarning-localizationargs="1.1" mq:errorwarning-dataspecific="errorwarning-dataspecific" mq:errorwarning-segmenthash="282900197" mq:errorwarning-combinedposstart="25" mq:errorwarning-combinedposlength="3" mq:errorwarning-correction="AQMxLDEAAAAA" />
+</mq:warnings40>
+<mq:minorversions>
+<mq:historical-unit mq:minorversionend="0" mq:minorversionstart="0" mq:status="NotStarted" mq:segmentguid="d5d35bbb-bf59-4ad6-aa39-6d6aef05e888" mq:lastchangedtimestamp="0001-01-01T00:00:00Z" mq:maxlengthchars="-1" mq:nosplitjoin="false" mq:firstlabel="13" mq:lastlabel="13" mq:autosplitjoinstate="0" mq:lastmodifrole="0" mq:multipleexactmatch="false">
+<source xml:space="preserve" mq:segpart="13" mq:hasfollowingobject="hasfollowingobject">About sub-section 1.1</source>
+<target xml:space="preserve"></target>
+<context-group>
+<context context-type="x-mmq-structural-context"></context>
+</context-group>
+<mq:startingws xml:space="preserve" />
+<mq:endingws xml:space="preserve" />
+<mq:commitinfos xmlns="MQXliff" /><mq:nosplitjoins />
+<mq:originalsource edited="false" />
+</mq:historical-unit>
+</mq:minorversions>
+<mq:startingws xml:space="preserve" />
+<mq:endingws xml:space="preserve" />
+<mq:commitinfos xmlns="MQXliff"><commitinfo matchrate="101" role="1000" timestamp="2020-10-29T13:03:01Z" username="" editingtime="0" /></mq:commitinfos><mq:nosplitjoins />
+<mq:originalsource edited="false" />
+<mq:insertedmatch matchtype="0" source="Asciidoc samples / jourikc" matchrate="101" originalmatchrate="0" ambiguousexact="false" hitfororiginalsegementversion="false" />
+</trans-unit>
+<trans-unit id="9" mq:minorversionend="2" mq:minorversionstart="1" mq:status="ManuallyConfirmed" mq:percent="101" mq:segmentguid="a26a9210-ba60-4a7a-854a-3444eaaf32ff" mq:translatorcommitmatchrate="101" mq:translatorcommitusername="" mq:translatorcommittimestamp="2020-10-29T13:03:01Z" mq:lastchangedtimestamp="2020-10-29T13:03:01Z" mq:lastchanginguser="jourikc" mq:maxlengthchars="-1" mq:nosplitjoin="false" mq:firstlabel="14" mq:lastlabel="14" mq:autosplitjoinstate="0" mq:lastmodifrole="0" mq:multipleexactmatch="false">
+<source xml:space="preserve" mq:segpart="14">More detail.</source>
+<target xml:space="preserve">Más detalles.</target>
+<context-group>
+<context context-type="x-mmq-structural-context"></context>
+</context-group>
+<mq:minorversions>
+<mq:historical-unit mq:minorversionend="0" mq:minorversionstart="0" mq:status="NotStarted" mq:segmentguid="a26a9210-ba60-4a7a-854a-3444eaaf32ff" mq:lastchangedtimestamp="0001-01-01T00:00:00Z" mq:maxlengthchars="-1" mq:nosplitjoin="false" mq:firstlabel="14" mq:lastlabel="14" mq:autosplitjoinstate="0" mq:lastmodifrole="0" mq:multipleexactmatch="false">
+<source xml:space="preserve" mq:segpart="14" mq:hasfollowingobject="hasfollowingobject">More detail.</source>
+<target xml:space="preserve"></target>
+<context-group>
+<context context-type="x-mmq-structural-context"></context>
+</context-group>
+<mq:startingws xml:space="preserve" />
+<mq:endingws xml:space="preserve" />
+<mq:commitinfos xmlns="MQXliff" /><mq:nosplitjoins />
+<mq:originalsource edited="false" />
+</mq:historical-unit>
+</mq:minorversions>
+<mq:startingws xml:space="preserve" />
+<mq:endingws xml:space="preserve" />
+<mq:commitinfos xmlns="MQXliff"><commitinfo matchrate="101" role="1000" timestamp="2020-10-29T13:03:01Z" username="" editingtime="0" /></mq:commitinfos><mq:nosplitjoins />
+<mq:originalsource edited="false" />
+<mq:insertedmatch matchtype="0" source="Asciidoc samples / jourikc" matchrate="101" originalmatchrate="0" ambiguousexact="false" hitfororiginalsegementversion="false" />
+</trans-unit>
+<trans-unit id="10" mq:minorversionend="2" mq:minorversionstart="1" mq:status="ManuallyConfirmed" mq:percent="101" mq:segmentguid="1010110f-7c7f-443b-b95d-e8ab694a1b5c" mq:translatorcommitmatchrate="101" mq:translatorcommitusername="" mq:translatorcommittimestamp="2020-10-29T13:03:01Z" mq:lastchangedtimestamp="2020-10-29T13:03:01Z" mq:lastchanginguser="jourikc" mq:maxlengthchars="-1" mq:nosplitjoin="false" mq:firstlabel="15" mq:lastlabel="15" mq:autosplitjoinstate="0" mq:lastmodifrole="0" mq:multipleexactmatch="false">
+<source xml:space="preserve" mq:segpart="15">Subsection Z-1</source>
+<target xml:space="preserve">Sub-sección Z-1</target>
+<context-group>
+<context context-type="x-mmq-structural-context"></context>
+</context-group>
+<mq:minorversions>
+<mq:historical-unit mq:minorversionend="0" mq:minorversionstart="0" mq:status="NotStarted" mq:segmentguid="1010110f-7c7f-443b-b95d-e8ab694a1b5c" mq:lastchangedtimestamp="0001-01-01T00:00:00Z" mq:maxlengthchars="-1" mq:nosplitjoin="false" mq:firstlabel="15" mq:lastlabel="15" mq:autosplitjoinstate="0" mq:lastmodifrole="0" mq:multipleexactmatch="false">
+<source xml:space="preserve" mq:segpart="15" mq:hasfollowingobject="hasfollowingobject">Subsection Z-1</source>
+<target xml:space="preserve"></target>
+<context-group>
+<context context-type="x-mmq-structural-context"></context>
+</context-group>
+<mq:startingws xml:space="preserve" />
+<mq:endingws xml:space="preserve" />
+<mq:commitinfos xmlns="MQXliff" /><mq:nosplitjoins />
+<mq:originalsource edited="false" />
+</mq:historical-unit>
+</mq:minorversions>
+<mq:startingws xml:space="preserve" />
+<mq:endingws xml:space="preserve" />
+<mq:commitinfos xmlns="MQXliff"><commitinfo matchrate="101" role="1000" timestamp="2020-10-29T13:03:01Z" username="" editingtime="0" /></mq:commitinfos><mq:nosplitjoins />
+<mq:originalsource edited="false" />
+<mq:insertedmatch matchtype="0" source="Asciidoc samples / jourikc" matchrate="101" originalmatchrate="0" ambiguousexact="false" hitfororiginalsegementversion="false" />
+</trans-unit>
+</body>
+</file>
+</xliff>

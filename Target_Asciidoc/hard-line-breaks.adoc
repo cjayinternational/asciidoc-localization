@@ -1,0 +1,30 @@
+﻿= Rupturas de línea duras
+
+(Vea la fuente de este documento para ver cómo se controlan las rupturas de línea duras).
+
+Por defecto, no se conservan las nuevas líneas entre líneas consecutivas en prosa (es decir, el texto del párrafo). Se tratan como un solo espacio, como en el HTML.
+
+primera línea
+segunda línea
+tercera línea
+
+Si desea que las nuevas líneas se conserven como rupturas de línea duras, puede añadir al párrafo la opción `hardbreaks`.
+
+[%hardbreaks]
+primera línea
+segunda línea
+tercera línea
+
+Si desea establecer esta opción a nivel mundial, defina el atributo `hardbreaks` en el encabezado del documento (pero sepa lo que está haciendo).
+
+Una tercera opción es añadir cortes de línea explícitos en la fuente añadiendo un espacio seguido de un signo positivo al final de la línea.
+
+primera línea +
+segunda línea +
+tercera línea
+
+Las nuevas líneas siempre se conservan en bloques preformateados, como un párrafo literal, un bloque literal o un bloque de listado.
+
+ primera línea
+ segunda línea
+ tercera línea

@@ -1,0 +1,3 @@
+﻿= Interdoc
+
+This page shows an example of an inter-document cross reference (i.e., xref) to <<article#,article{outfilesuffix}>> from this document. No additional settings are needed in order for this to work on GitHub.

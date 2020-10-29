@@ -1,0 +1,3 @@
+﻿= Directorio relativo
+
+Este es un documento dentro de un directorio relativo.

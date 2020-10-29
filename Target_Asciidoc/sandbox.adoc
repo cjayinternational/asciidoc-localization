@@ -1,0 +1,26 @@
+﻿= Caja de arena
+
+He aquí un ejemplo de un link:moredocs/another{outfilesuffix}[enlace relativo] a un archivo en un sub-directorio usando el enlace de macro en línea.
+
+He aquí un ejemplo de un enlace <<moredocs/another#,relativo>> a un archivo en un subdirectorio utilizando la macro inline xref inter-documento.
+
+++++
+<table width="100%">
+  <tr>
+    <td width="20%">20%</td>
+    <td width="80%">80%</td>
+  </tr>
+</table>
+++++
+
+== ¿De qué se trata?
+
+Es una caja de arena.
+
+=== foo/bar
+
+=== Acerca de la sub-sección 1.1
+
+Más detalles.
+
+== Sub-sección Z-1

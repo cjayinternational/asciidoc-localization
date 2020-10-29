@@ -1,0 +1,236 @@
+﻿= Demostración de asciidoctor
+Dan Allen <thedoc@asciidoctor.org>
+:description: A demo of Asciidoctor.
+:library: Asciidoctor
+:idprefix:
+:numbered:
+:imagesdir: images
+:experimental:
+//:toc: macro
+:toc: preamble
+:toc-title: pass:[<h3>Contenido</h3>]
+:css-signature: demo
+//:max-width: 800px
+//:doctype: book
+//:sectids!:
+ifdef::env-github[]
+:note-caption: :information_source:
+:tip-caption: :bulb:
+endif::[]
+
+Esta es una demostración de {library} {asciidoctor-version}.
+
+Y este es el preámbulo de este documento.
+
+[[purpose]]
+.Propósito
+****
+En este documento se ejercitan muchas de las características de AsciiDoc para probar la implementación de {library}.
+****
+
+TIP: Si quieres que el HTML tenga el conocido estilo AsciiDoc Python, carga la hoja de estilo asciidoc.css usando la opción CLI `-a stylesheet=asciidoc.css`.
+
+== Primeros pasos con AsciiDoc
+
+.Marcado en línea
+* los subrayados alrededor de una frase ponen _énfasis_
+* los asteriscos alrededor de una frase hacen que el texto sea *negrita*
+* los asteriscos dobles alrededor de una o más **l**etras en una palabra hacen que esas letras sean negritas
+* los subrayados dobles alrededor de una __sub__-cadena en una palabra destaca la sub-cadena
+* usar zanahorias alrededor de los personajes para hacerlos ^super^script
+* usar tildes alrededor de los caracteres para hacerlos ~sub~script
+ifdef::basebackend-html[* para pasar +++<b>HTML</b>+++ directamente, rodear el texto con triple plus]
+ifdef::basebackend-docbook[* para pasar +++<constant>XML</constant>+++ directamente, rodear el texto con triple plus]
+
+// Separate two adjacent lists using a line comment (only the leading // is required)
+
+- los caracteres pueden escaparse usando un {backslash}
+* por ejemplo, puedes escapar una comilla dentro de un texto enfatizado como _Here\'s Johnny!_
+- puedes usar con seguridad los caracteres XML reservados como <, > y &, que se escapan al convertir
+- forzar un espacio{sp}entre los elementos en línea usando el atributo \{sp}
+- mantener el texto junto con un atributo espacial intrínseco no{nbsp}rompedor, \{nbsp}
+- manejar palabras con caracteres unicode como en el nombre Gregory Romé
+- reclamar sus derechos de autor (C), marca registrada (R) o marca comercial (TM)
+- seleccione menu:View[Zoom > Reset] para restablecer el zoom
+
+Se puede escribir el texto https://cjay-international.com[con enlaces en línea], opcionalmente{sp}usando un https://cjay-international.com[prefijo de enlace] explícito. En cualquier caso, el enlace puede tener una https://example.com?foo=bar&lang=en[cadena de consulta].
+
+Si quieres romper una línea +
+sólo tienes que terminarla en un signo {plus} +
+y seguir escribiendo en la siguiente línea.
+
+=== Listas sobre listas
+
+.Listas adyacentes
+* esta lista
+* debería unirse
+
+* para tener
+* cuatro artículos
+
+ifdef::env-github[]
+++++
+<a name="ordered"></a>
+++++
+endif::env-github[]
+
+[[ordered]]
+.Listas ordenadas
+. Estos artículos
+. serán auto-numerados
+.. y pueden ser anidados
+. Una lista numerada puede anidar
+* artículos
+* de lista
+* desordenada
+
+.Declaración
+Juro que lo dejé en el coche de _Guy_. Vamos a buscarlo.
+
+[[defs]]
+término::
+  definición
+línea dos
+[[another_term]]otro término::
+
+  otra definición, que puede ser literal (sangrada) o de párrafo regular
+
+Este debería ser un párrafo independiente, no agarrado por la lista de definiciones.
+
+[[nested]]
+* primer nivel
+escrito en dos líneas
+* primer nivel
++
+....
+con este texto literal
+....
+
+* primer nivel
+
+ con un texto más literal
+
+** segundo nivel
+*** tercer nivel
+- cuarto nivel
+* volver a +
+primer nivel
+
+// This is a comment.
+
+Hagamos una regla horizontal...
+
+'''
+
+y luego tomar un descanso.
+
+//We'll be right with you... after this brief interruption.
+
+== ... ¡y estamos de vuelta!
+
+¿Quieres ver un image:tiger.png[Tigre,50]?
+
+¿Te sientes más seguro con el tigre en una caja?
+
+.Tigre en una caja
+image::tiger.png[]
+
+include::include.adoc[]
+
+.Ejemplo de uso del asciidoctor. El listado debe contener 5 líneas.
+[source,ruby]
+----
+require "asciidoctor
+
+doc = Asciidoctor.load '¡*Esto* es https://asciidoc.org[AsciiDoc]!', header_footer: true
+
+puts doc.convert
+----
+
+// TODO: Use ifdef to show output according to current backend
+.Ejemplo de uso de Asciidoctor
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="generator" content="Asciidoctor 0.1.4">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sin título</title>
+<link rel="stylesheet" href="./asciidoctor.css">
+</head>
+<body class="article">
+<div id="header">
+</div>
+<div id="content">
+<div class="paragraph">
+<p>¡<strong>Esto</strong> es <a href="https://asciidoc.org">AsciiDoc</a>!</p>
+</div>
+</div>
+<div id="footer">
+<div id="footer-text">
+Última actualización 2014-01-28 20:11:37 MST
+</div>
+</div>
+</body>
+</html>
+```
+
+=== Block Quotes y "`Smart`" Ones
+
+____
+AsciiDoc es _tan_ *poderoso*!
+____
+
+Este verso me viene a la mente.
+
+[verse]
+La la la
+
+Aquí hay otra cita:
+
+[quote, Sir Arthur Conan Doyle, Las aventuras de Sherlock Holmes]
+____
+Cuando se ha eliminado todo lo que es imposible, entonces lo que queda, por improbable que sea, debe ser la verdad.
+____
+
+"`¡Muévete!`" gritó.
+
+== Consiguiendo la literalidad [[literally]]
+
+ ¿Quieres ponerte literal? Sólo hay que anteponer un espacio a una línea (sólo un espacio servirá).
+
+....
+Yo también me uniré a esa fiesta.
+....
+
+Olvidamos mencionar en <<ordered>> que puedes cambiar el estilo de numeración.
+
+.. primer artículo (¡sí!)
+.. segundo artículo, se ve `tan mono`
+.. tercer artículo, ¡`mono` es!
+
+// This attribute line will get reattached to the next block
+// despite being followed by a trailing blank line.
+[id='wrapup']
+
+== Resumen
+
+NOTE: AsciiDoc es bastante guay, ¡deberías probarlo!
+
+[TIP]
+.Información
+=====
+Ve a esta dirección para saber más sobre ello:
+
+* https://asciidoc.org
+
+O podrías volver a la xref:primeros_pasos_con_asciidoc[] o a <<purpose,Propósito>>.
+=====
+
+Aquí hay una referencia a la definición de <<another_term>>, por si lo has olvidado.
+
+[NOTE]
+Una cosa más. ¡Feliz documentación!
+
+[[google]]Cuando todo lo demás falla, diríjase a <https://google.com>.

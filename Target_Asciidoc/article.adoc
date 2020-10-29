@@ -1,0 +1,119 @@
+﻿// NOTE: This is the article example from the AsciiDoc Python project
+= El título del artículo
+=================
+Nombre del autor <authors@email.address>
+v1.0, 2003-12
+:imagesdir: images
+:toc: preamble
+
+Este es el preámbulo opcional (un cuerpo de sección sin título). Útil para escribir documentos simples sin secciones que consisten sólo en un preámbulo.
+
+NOTE: Los títulos de las secciones de resúmenes, prefacio, apéndice, bibliografía, glosario e índice son significativos ('specialsections').
+
+:numbered!:
+[abstract]
+Resumen ejemplo
+----------------
+El resumen opcional (uno o más párrafos) va aquí.
+
+Este documento es un esqueleto de artículo de AsciiDoc que contiene marcadores de posición de elementos brevemente anotados, además de un par de entradas de índice de ejemplo y notas al pie de página.
+
+:numbered:
+
+La Primera Sección
+-----------------
+Las secciones del artículo comienzan en el nivel 1 y pueden anidarse hasta cuatro niveles de profundidad.
+footnote:[Un ejemplo de nota al pie de página.]
+indexterm:[Ejemplo de entrada de índice]
+
+Y ahora algo completamente diferente: ((monos)), leones y tigres (Bengala y Siberia) usando las entradas del índice de sintaxis alternativo.
+
+(((Gatos grandes,Leones)))
+
+(((Gatos grandes,Tigres,Tigre de Bengala)))
+
+(((Grandes felinos,Tigres,Tigre siberiano)))
+
+Obsérvese que los términos de entradas múltiples generan entradas de índice separadas.
+
+Aquí hay un par de ejemplos de imágenes: Un image:tiger.png[Tigre,100] ejemplo de imagen en línea seguida de imágenes de bloque:
+
+.Imagen del bloque PNG
+image::tiger.png[Tigre]
+
+.Imagen del bloque SVG
+image::ruby.svg[Gema de rubí]
+
+Seguido de una tabla de ejemplo:
+
+.Una tabla de ejemplo
+[width="60%",options="header"]
+|==============================================
+| Opción          | Descripción
+| -un 'GRUPO DE USUARIOS' | Añadir 'USUARIO' a 'GRUPO'.
+| -R “GRUPO'      | Desactiva el acceso a “GRUPO'.
+|==============================================
+
+.Un ejemplo
+===============================================
+Lorum ipsum...
+===============================================
+
+[[X1]]
+Sub-sección con Ancla
+~~~~~~~~~~~~~~~~~~~~~~~
+Sub-sección en el nivel 2.
+
+Una sub-sección anidada
+^^^^^^^^^^^^^^^^^^^^
+Sub-sección en el nivel 3.
+
+Otra sub-sección anidada
+++++++++++++++++++++++++++++++
+Sub-sección en el nivel 4.
+
+Esta es la máxima profundidad de subsección soportada por la configuración distribuida de AsciiDoc.
+footnote:[Un segundo ejemplo de nota al pie de página.]
+
+La Segunda Sección
+------------------
+Las secciones de los artículos están en el nivel 1 y pueden contener sub-secciones anidadas hasta cuatro de profundidad.
+
+Un ejemplo de enlace para anclar al comienzo de <<X1,la primera sub-sección>>.
+indexterm:[Segundo ejemplo de entrada de índice]
+
+Un ejemplo de enlace a una entrada de bibliografía <<taoup>>.
+
+Un enlace a link:moredocs/another.adoc[un documento] en un directorio relativo.
+
+:numbered!:
+
+[appendix]
+Apéndice ejemplo
+----------------
+Los apéndices de artículos de AsciiDoc son sólo secciones de artículos con títulos de 'sección especial'.
+
+Sub-sección del apéndice
+~~~~~~~~~~~~~~~~~~~~
+Sub-sección del apéndice en el nivel 2.
+
+[bibliography]
+Bibliografía ejemplo
+--------------------
+La lista de bibliografía es un estilo de lista de viñetas de AsciiDoc.
+
+[bibliography]
+- [[[taoup]]] Eric Steven Raymond. 'El arte de la programación de Unix'. Addison-Wesley. ISBN 0-13-142901-9.
+- [[[walsh-muellner]]] Norman Walsh y Leonard Muellner. 'DocBook - La Guía Definitiva'. O'Reilly y Asociados. 1999. ISBN 1-56592-580-7.
+
+[glossary]
+Glosario ejemplo
+----------------
+Los glosarios son opcionales. Las entradas de los glosarios son un ejemplo de un estilo de listas etiquetadas AsciiDoc.
+
+[glossary]
+Un término del glosario::
+  La definición correspondiente (indentada).
+
+Un segundo término del glosario::
+  La definición correspondiente (indentada).

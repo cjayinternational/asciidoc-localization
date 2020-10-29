@@ -1,0 +1,3 @@
+﻿= Inter-documento
+
+Esta página muestra un ejemplo de una referencia cruzada inter-documento (es decir, xref) a <<article#,article{outfilesuffix}>> de este documento. No se necesita ninguna configuración adicional para que esto funcione en GitHub.

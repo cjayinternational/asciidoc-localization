@@ -1,0 +1,185 @@
+﻿<html>
+<h1>El título del artículo</h1>
+<div id="preamble">
+  <div class="sectionbody">
+    <p>v1.0, 2003-12 :imagesdir: images :toc: preamble</p>
+    <p>Este es el preámbulo opcional (un cuerpo de sección sin título). Útil para
+        escribir documentos simples sin secciones que consisten sólo en un preámbulo.</p>
+    <div class="admonitionblock note">
+      <table>
+        <tr>
+          <td class="icon">
+            <div class="title">Note</div>
+          </td>
+          <td class="content">
+            Los títulos de las secciones de resúmenes, prefacio, apéndice, bibliografía, glosario
+            e índice son significativos ('specialsections').
+          </td>
+        </tr>
+      </table>
+    </div>
+  </div>
+</div>
+<div class="sect1">
+  <h2 id="_resumen_ejemplo">Resumen ejemplo</h2>
+  <div class="sectionbody">
+    <p>El resumen opcional (uno o más párrafos) va aquí.</p>
+    <p>Este documento es un esqueleto de artículo de AsciiDoc que contiene marcadores
+        de posición de elementos brevemente anotados, además de un par de entradas
+        de índice de ejemplo y notas al pie de página.</p>
+  </div>
+</div>
+<div class="sect1">
+  <h2 id="_la_primera_secci_n">1. La Primera Sección</h2>
+  <div class="sectionbody">
+    <p>Las secciones del artículo comienzan en el nivel 1 y pueden anidarse hasta
+        cuatro niveles de profundidad.
+        <sup class="footnote">[<a id="_footnoteref_1" class="footnote" href="#_footnote_1" title="View footnote.">1</a>]</sup>
+      </p>
+    <p>Y ahora algo completamente diferente: monos, leones y tigres (Bengala y Siberia)
+        usando las entradas del índice de sintaxis alternativo.</p>
+    <p></p>
+    <p></p>
+    <p></p>
+    <p>Obsérvese que los términos de entradas múltiples generan entradas de índice
+        separadas.</p>
+    <p>Aquí hay un par de ejemplos de imágenes: Un <span class="image"><img src="images/tiger.png" alt="Tigre" width="100"></span> ejemplo de imagen en línea seguida de imágenes de bloque:</p>
+    <div class="imageblock">
+      <div class="content">
+        <img src="images/tiger.png" alt="Tigre">
+      </div>
+      <div class="title">Figure 1. Imagen del bloque PNG</div>
+    </div>
+    <div class="imageblock">
+      <div class="content">
+        <img src="images/ruby.svg" alt="Gema de rubí">
+      </div>
+      <div class="title">Figure 2. Imagen del bloque SVG</div>
+    </div>
+    <p>Seguido de una tabla de ejemplo:</p>
+    <table class="tableblock frame-all grid-all" style="width: 60%;">
+      <caption class="title">Table 1. Una tabla de ejemplo</caption>
+      <colgroup>
+        <col style="width: 50%;">
+        <col style="width: 50%;">
+      </colgroup>
+      <thead>
+        <tr>
+          <th class="tableblock halign-left valign-top">Opción</th>
+          <th class="tableblock halign-left valign-top">Descripción</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="tableblock halign-left valign-top">
+            <p class="tableblock">-un 'GRUPO DE USUARIOS'</p>
+          </td>
+          <td class="tableblock halign-left valign-top">
+            <p class="tableblock">Añadir 'USUARIO' a 'GRUPO'.</p>
+          </td>
+        </tr>
+        <tr>
+          <td class="tableblock halign-left valign-top">
+            <p class="tableblock">-R “GRUPO'</p>
+          </td>
+          <td class="tableblock halign-left valign-top">
+            <p class="tableblock">Desactiva el acceso a “GRUPO'.</p>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <div class="exampleblock">
+      <div class="title">Example 1. Un ejemplo</div>
+      <div class="content">
+        <p>Lorum ipsum…​</p>
+      </div>
+    </div>
+    <div class="sect2">
+      <h3 id="X1">1.1. Sub-sección con Ancla</h3>
+      <p>Sub-sección en el nivel 2.</p>
+      <div class="sect3">
+        <h4 id="_a_nested_sub_section">1.1.1. Una sub-sección anidada</h4>
+        <p>Sub-sección en el nivel 3.</p>
+        <div class="sect4">
+          <h5 id="_yet_another_nested_sub_section">Otra sub-sección anidada</h5>
+          <p>Sub-sección en el nivel 4.</p>
+          <p>Esta es la máxima profundidad de subsección soportada por la configuración
+              distribuida de AsciiDoc.
+              <sup class="footnote">[<a id="_footnoteref_2" class="footnote" href="#_footnote_2" title="View footnote.">2</a>]</sup></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="sect1">
+  <h2 id="_la_segunda_secci_n">2. La Segunda Sección</h2>
+  <div class="sectionbody">
+    <p>Las secciones de los artículos están en el nivel 1 y pueden contener sub-secciones
+        anidadas hasta cuatro de profundidad.</p>
+    <p>Un ejemplo de enlace para anclar al comienzo de <a href="#X1">la primera sub-sección</a>.
+      </p>
+    <p>Un ejemplo de enlace a una entrada de bibliografía <a href="#taoup">[taoup]</a>.</p>
+    <p>Un enlace a <a href="moredocs/another.html">un documento</a> en un directorio
+        relativo.</p>
+  </div>
+</div>
+<div class="sect1">
+  <h2 id="_ap_ndice_ejemplo">Appendix A: Apéndice ejemplo</h2>
+  <div class="sectionbody">
+    <p>Los apéndices de artículos de AsciiDoc son sólo secciones de artículos con
+        títulos de 'sección especial'.</p>
+    <div class="sect2">
+      <h3 id="_appendix_sub_section">Sub-sección del apéndice</h3>
+      <p>Sub-sección del apéndice en el nivel 2.</p>
+    </div>
+  </div>
+</div>
+<div class="sect1">
+  <h2 id="_bibliograf_a_ejemplo">Bibliografía ejemplo</h2>
+  <div class="sectionbody">
+    <p>La lista de bibliografía es un estilo de lista de viñetas de AsciiDoc.</p>
+    <div class="ulist bibliography">
+      <ul class="bibliography">
+        <li>
+          <p>
+            <a id="taoup"></a>[taoup] Eric Steven Raymond. 'El arte de la programación de Unix'.
+            Addison-Wesley. ISBN 0-13-142901-9.</p>
+        </li>
+        <li>
+          <p>
+            <a id="walsh-muellner"></a>[walsh-muellner] Norman Walsh y Leonard Muellner. 'DocBook - La Guía
+            Definitiva'. O’Reilly y Asociados. 1999. ISBN 1-56592-580-7.</p>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+<div class="sect1">
+  <h2 id="_glosario_ejemplo">Glosario ejemplo</h2>
+  <div class="sectionbody">
+    <p>Los glosarios son opcionales. Las entradas de los glosarios son un ejemplo
+        de un estilo de listas etiquetadas AsciiDoc.</p>
+    <div class="dlist glossary">
+      <dl>
+        <dt>Un término del glosario</dt>
+        <dd>
+          <p>La definición correspondiente (indentada).</p>
+        </dd>
+        <dt>Un segundo término del glosario</dt>
+        <dd>
+          <p>La definición correspondiente (indentada).</p>
+        </dd>
+      </dl>
+    </div>
+  </div>
+</div>
+<div id="footnotes">
+  <hr>
+  <div class="footnote" id="_footnote_1">
+    <a href="#_footnoteref_1">1</a>. Un ejemplo de nota al pie de página.
+  </div>
+  <div class="footnote" id="_footnote_2">
+    <a href="#_footnoteref_2">2</a>. Un segundo ejemplo de nota al pie de página.
+  </div>
+</div>
+</html>

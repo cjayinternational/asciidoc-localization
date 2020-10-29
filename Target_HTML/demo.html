@@ -1,0 +1,403 @@
+﻿<html>
+<h1 id="demo">Demostración de asciidoctor</h1>
+<div id="preamble">
+  <div class="sectionbody">
+    <p>Esta es una demostración de Asciidoctor 1.5.4.</p>
+    <p>Y este es el preámbulo de este documento.</p>
+    <div id="purpose" class="sidebarblock">
+      <div class="content">
+        <div class="title">Propósito</div>
+        <p>En este documento se ejercitan muchas de las características de AsciiDoc
+            para probar la implementación de Asciidoctor.</p>
+      </div>
+    </div>
+    <div class="admonitionblock tip">
+      <table>
+        <tr>
+          <td class="icon">
+            <div class="title">Tip</div>
+          </td>
+          <td class="content">
+            Si quieres que el HTML tenga el conocido estilo AsciiDoc Python, carga la hoja de
+            estilo asciidoc.css usando la opción CLI <code>-a stylesheet=asciidoc.css</code>.
+          </td>
+        </tr>
+      </table>
+    </div>
+  </div>
+  <div id="toc" class="toc">
+    <div id="toctitle">
+      <h3>Contenido</h3>
+    </div>
+    <ul class="sectlevel1">
+      <li><a href="#primeros_pasos_con_asciidoc">1. Primeros pasos con AsciiDoc</a>
+        <ul class="sectlevel2">
+          <li><a href="#listas_sobre_listas">1.1. Listas sobre listas</a></li>
+        </ul>
+      </li>
+      <li><a href="#y_estamos_de_vuelta">2. …​ ¡y estamos de vuelta!</a>
+        <ul class="sectlevel2">
+          <li><a href="#block_quotes_y_smart_ones">2.1. Block Quotes y “Smart” Ones</a></li>
+        </ul>
+      </li>
+      <li><a href="#literally">3. Consiguiendo la literalidad</a></li>
+      <li><a href="#wrapup">4. Resumen</a></li>
+    </ul>
+  </div>
+</div>
+<div class="sect1">
+  <h2 id="primeros_pasos_con_asciidoc">1. Primeros pasos con AsciiDoc</h2>
+  <div class="sectionbody">
+    <div class="ulist">
+      <div class="title">Marcado en línea</div>
+      <ul>
+        <li>
+          <p>los subrayados alrededor de una frase ponen <em>énfasis</em></p>
+        </li>
+        <li>
+          <p>los asteriscos alrededor de una frase hacen que el texto sea <strong>negrita</strong></p>
+        </li>
+        <li>
+          <p>los asteriscos dobles alrededor de una o más <strong>l</strong>etras en
+            una palabra hacen que esas letras sean negritas</p>
+        </li>
+        <li>
+          <p>los subrayados dobles alrededor de una <em>sub</em>-cadena en una palabra
+            destaca la sub-cadena</p>
+        </li>
+        <li>
+          <p>usar zanahorias alrededor de los personajes para hacerlos <sup>super</sup>script</p>
+        </li>
+        <li>
+          <p>usar tildes alrededor de los caracteres para hacerlos <sub>sub</sub>script</p>
+        </li>
+        <li>
+          <p>para pasar <b>HTML</b> directamente, rodear el texto con triple plus</p>
+        </li>
+      </ul>
+    </div>
+    <div class="ulist">
+      <ul>
+        <li>
+          <p>los caracteres pueden escaparse usando un \</p>
+          <div class="ulist">
+            <ul>
+              <li>
+                <p>por ejemplo, puedes escapar una comilla dentro de un texto enfatizado
+                  como <em>Here's Johnny!</em></p>
+              </li>
+            </ul>
+          </div>
+        </li>
+        <li>
+          <p>puedes usar con seguridad los caracteres XML reservados como &lt;, &gt;
+            y &amp;, que se escapan al convertir</p>
+        </li>
+        <li>
+          <p>forzar un espacio entre los elementos en línea usando el atributo {sp}</p>
+        </li>
+        <li>
+          <p>mantener el texto junto con un atributo espacial intrínseco no rompedor,
+            {nbsp}</p>
+        </li>
+        <li>
+          <p>manejar palabras con caracteres unicode como en el nombre Gregory Romé</p>
+        </li>
+        <li>
+          <p>reclamar sus derechos de autor ©, marca registrada ® o marca
+            comercial ™</p>
+        </li>
+        <li>
+          <p>seleccione <span class="menuseq"><span class="menu">View</span> ▸
+            <span class="submenu">Zoom</span> ▸ <span class="menuitem">Reset</span></span>
+            para restablecer el zoom</p>
+        </li>
+      </ul>
+    </div>
+    <p>Se puede escribir el texto <a href="https://cjay-international.com">con enlaces en línea</a>,
+        opcionalmente usando un <a href="https://cjay-international.com">prefijo de enlace</a> explícito. En cualquier caso, el enlace puede tener una <a href="https://example.com?foo=bar&amp;lang=en">cadena de consulta</a>.</p>
+    <p>Si quieres romper una línea<br> sólo tienes que terminarla en un signo +<br>y seguir escribiendo en la siguiente línea.</p>
+    <div class="sect2">
+      <h3 id="listas_sobre_listas">1.1. Listas sobre listas</h3>
+      <div class="ulist">
+        <div class="title">Listas adyacentes</div>
+        <ul>
+          <li>
+            <p>esta lista</p>
+          </li>
+          <li>
+            <p>debería unirse</p>
+          </li>
+          <li>
+            <p>para tener</p>
+          </li>
+          <li>
+            <p>cuatro artículos</p>
+          </li>
+        </ul>
+      </div>
+      <div id="ordered" class="olist arabic">
+        <div class="title">Listas ordenadas</div>
+        <ol class="arabic">
+          <li>
+            <p>Estos artículos</p>
+          </li>
+          <li>
+            <p>serán auto-numerados</p>
+            <div class="olist loweralpha">
+              <ol class="loweralpha" type="a">
+                <li>
+                  <p>y pueden ser anidados</p>
+                </li>
+              </ol>
+            </div>
+          </li>
+          <li>
+            <p>Una lista numerada puede anidar</p>
+            <div class="ulist">
+              <ul>
+                <li>
+                  <p>artículos</p>
+                </li>
+                <li>
+                  <p>de lista</p>
+                </li>
+                <li>
+                  <p>desordenada</p>
+                </li>
+              </ul>
+            </div>
+          </li>
+        </ol>
+      </div>
+      <div class="paragraph">
+        <div class="title">Declaración</div>
+        <p>Juro que lo dejé en el coche de <em>Guy</em>. Vamos a buscarlo.</p>
+      <div id="defs" class="dlist">
+        <dl>
+          <dt class="hdlist1">término</dt>
+          <dd>
+            <p> definición línea dos</p>
+          </dd>
+          <dt class="hdlist1"><a id="another_term"></a>otro término</dt>
+          <dd>
+            <p>otra definición, que puede ser literal (sangrada) o de párrafo regular</p>
+          </dd>
+        </dl>
+      </div>
+      <p>Este debería ser un párrafo independiente, no agarrado por la lista de definiciones.</p>
+      <div id="nested" class="ulist">
+        <ul>
+          <li>
+            <p>primer nivel escrito en dos líneas</p>
+          </li>
+          <li>
+            <p>primer nivel</p>
+            <div class="literalblock">
+              <div class="content">
+                <pre>con este texto literal</pre>
+              </div>
+            </div>
+          </li>
+          <li>
+            <p>primer nivel</p>
+            <div class="literalblock">
+              <div class="content">
+                <pre>con un texto más literal</pre>
+              </div>
+            </div>
+            <div class="ulist">
+              <ul>
+                <li>
+                  <p>segundo nivel</p>
+                  <div class="ulist">
+                    <ul>
+                      <li>
+                        <p>tercer nivel</p>
+                        <div class="ulist">
+                          <ul>
+                            <li>
+                              <p>cuarto nivel</p>
+                            </li>
+                          </ul>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <p>volver a<br> primer nivel</p>
+          </li>
+        </ul>
+      </div>
+      <p>Hagamos una regla horizontal…​</p>
+      <hr>
+      <p>y luego tomar un descanso.</p>
+    </div>
+  </div>
+</div>
+<div class="sect1">
+  <h2 id="y_estamos_de_vuelta">2. …​ ¡y estamos de vuelta!</h2>
+  <div class="sectionbody">
+    <p>¿Quieres ver un <span class="image"><img src="images/tiger.png" alt="Tigre" width="50"></span>?</p>
+    <p>¿Te sientes más seguro con el tigre en una caja?</p>
+    <div class="imageblock">
+      <div class="content">
+        <img src="images/tiger.png" alt="tiger">
+      </div>
+      <div class="title">Figure 1. Tigre en una caja</div>
+    </div>
+    <p><a href="include.html" class="bare">include.adoc</a></p>
+    <div class="listingblock">
+      <div class="title">Ejemplo de uso del asciidoctor. El listado debe contener 5 líneas.</div>
+      <div class="content">
+        <pre class="highlight"><code class="language-ruby" data-lang="ruby">require "asciidoctor
+
+doc = Asciidoctor.load '¡*Esto* es https://asciidoc.org[AsciiDoc]!', header_footer: true
+
+puts doc.convert</code></pre>
+      </div>
+    </div>
+    <div class="listingblock">
+      <div class="title">Ejemplo de uso de Asciidoctor</div>
+      <div class="content">
+        <pre class="highlight"><code class="language-html" data-lang="html">&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+&lt;meta http-equiv="Content-Type" content="text/html; charset=UTF-8"&gt;
+&lt;meta name="generator" content="Asciidoctor 0.1.4"&gt;
+&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+&lt;title&gt;Sin título&lt;/title&gt;
+&lt;link rel="stylesheet" href="./asciidoctor.css"&gt;
+&lt;/head&gt;
+&lt;body class="article"&gt;
+&lt;div id="header"&gt;
+&lt;/div&gt;
+&lt;div id="content"&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;¡&lt;strong&gt;Esto&lt;/strong&gt; es &lt;a href="https://asciidoc.org"&gt;AsciiDoc&lt;/a&gt;!&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id="footer"&gt;
+&lt;div id="footer-text"&gt;
+Última actualización 2014-01-28 20:11:37 MST
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre>
+      </div>
+    </div>
+    <div class="sect2">
+      <h3 id="block_quotes_y_smart_ones">2.1. Block Quotes y “Smart” Ones</h3>
+      <div class="quoteblock">
+        <blockquote>
+          <p>AsciiDoc es <em>tan</em> <strong>poderoso</strong>!</p>
+        </blockquote>
+      </div>
+      <p>Este verso me viene a la mente.</p>
+      <div class="verseblock">
+        <pre class="content">La la la</pre>
+      </div>
+      <p>Aquí hay otra cita:</p>
+      <div class="quoteblock">
+        <blockquote>
+          <p>Cuando se ha eliminado todo lo que es imposible, entonces lo que queda,
+              por improbable que sea, debe ser la verdad.</p>
+        </blockquote>
+        <div class="attribution">
+          — Sir Arthur Conan Doyle<br>
+          <cite>Las aventuras de Sherlock Holmes</cite>
+        </div>
+      </div>
+      <p>“¡Muévete!” gritó.</p>
+    </div>
+  </div>
+</div>
+<div class="sect1">
+  <h2 id="literally">3. Consiguiendo la literalidad</h2>
+  <div class="sectionbody">
+    <div class="literalblock">
+      <div class="content">
+        <pre>¿Quieres ponerte literal? Sólo hay que anteponer un espacio a una línea (sólo un espacio servirá).</pre>
+      </div>
+    </div>
+    <div class="literalblock">
+      <div class="content">
+        <pre>Yo también me uniré a esa fiesta.</pre>
+      </div>
+    </div>
+    <p>Olvidamos mencionar en <a href="#ordered">Listas ordenadas</a> que puedes cambiar
+        el estilo de numeración.</p>
+    <div class="olist loweralpha">
+      <ol class="loweralpha" type="a">
+        <li>
+          <p>primer artículo (¡sí!)</p>
+        </li>
+        <li>
+          <p>segundo artículo, se ve <code>tan mono</code></p>
+        </li>
+        <li>
+          <p>tercer artículo, ¡<code>mono</code> es!</p>
+        </li>
+      </ol>
+    </div>
+  </div>
+</div>
+<div class="sect1">
+  <h2 id="wrapup">4. Resumen</h2>
+  <div class="sectionbody">
+    <div class="admonitionblock note">
+      <table>
+        <tr>
+          <td class="icon">
+            <div class="title">Note</div>
+          </td>
+          <td class="content">
+            AsciiDoc es bastante guay, ¡deberías probarlo!
+          </td>
+        </tr>
+      </table>
+    </div>
+    <div class="admonitionblock tip">
+      <table>
+        <tr>
+          <td class="icon">
+            <div class="title">Tip</div>
+          </td>
+          <td class="content">
+            <div class="title">Información</div>
+            <p>Ve a esta dirección para saber más sobre ello:</p>
+            <div class="ulist">
+              <ul>
+                <li>
+                  <p><a href="https://asciidoc.org" class="bare">https://asciidoc.org</a></p>
+                </li>
+              </ul>
+            </div>
+            <p>O podrías volver a la <a href="#primeros_pasos_con_asciidoc">Primeros pasos con AsciiDoc</a> o a <a href="#purpose">Propósito</a>.</p>
+          </td>
+        </tr>
+      </table>
+    </div>
+    <p>Aquí hay una referencia a la definición de <a href="#another_term">[another_term]</a>,
+        por si lo has olvidado.</p>
+    <div class="admonitionblock note">
+      <table>
+        <tr>
+          <td class="icon">
+            <div class="title">Note</div>
+          </td>
+          <td class="content">
+            Una cosa más. ¡Feliz documentación!
+          </td>
+        </tr>
+      </table>
+    </div>
+    <p>
+        <a id="google"></a>Cuando todo lo demás falla, diríjase a <a href="https://google.com" class="bare">https://google.com</a>.</p>
+  </div>
+</div>
+</html>

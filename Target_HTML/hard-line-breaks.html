@@ -1,0 +1,25 @@
+﻿<html>
+<h1>Rupturas de línea duras</h1>
+<p>(Vea la fuente de este documento para ver cómo se controlan las rupturas de línea
+    duras).</p>
+<p>Por defecto, no se conservan las nuevas líneas entre líneas consecutivas en prosa
+    (es decir, el texto del párrafo). Se tratan como un solo espacio, como en el
+    HTML.</p>
+<p>primera línea segunda línea tercera línea</p>
+<p>Si desea que las nuevas líneas se conserven como rupturas de línea duras, puede
+    añadir al párrafo la opción <code>hardbreaks</code>.</p>
+<p>primera línea<br> segunda línea<br> tercera línea</p>
+<p>Si desea establecer esta opción a nivel mundial, defina el atributo <code>hardbreaks</code> en el encabezado del documento (pero sepa lo que está haciendo).</p>
+<p>Una tercera opción es añadir cortes de línea explícitos en la fuente añadiendo
+    un espacio seguido de un signo positivo al final de la línea.</p>
+<p>primera línea<br> segunda línea<br> tercera línea</p>
+<p>Las nuevas líneas siempre se conservan en bloques preformateados, como un párrafo
+    literal, un bloque literal o un bloque de listado.</p>
+<div class="literalblock">
+  <div class="content">
+    <pre>primera línea
+segunda línea
+tercera línea</pre>
+  </div>
+</div>
+</html>

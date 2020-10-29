@@ -1,0 +1,144 @@
+﻿<MemoQResource ResourceType="FilterConfigs" Version="1.0">
+  <Resource>
+    <Guid>5c714fdf-36e7-4711-8026-60eeb16875cb</Guid>
+    <FileName>ChainedConverter#Asciidoc</FileName>
+    <Name>Asciidoc</Name>
+    <Description />
+    <FilterName>MemoQ.DocConverters.ChainedConverter.ChainedConverter</FilterName>
+    <FirstFilterConfigurationConverterName>MemoQ.DocConverters.RegexText.RegexTextConverter</FirstFilterConfigurationConverterName>
+  </Resource>
+</MemoQResource>
+<MemoQChainedFilterConfiguration filtername="Chained Filter" version="V1">
+  <ChainedFilterConfigurationElement convertername="MemoQ.DocConverters.RegexText.RegexTextConverter">
+<MemoQFilterConfiguration filtername="Regex Text Filter" Version="V1">
+  <GeneralSettings ImportEncoding="Unicode (UTF-8)" HasBOM="no" OverrideImportCodepageFromBOM="yes" NewLineType="Any" ParagraphSeparatorType="CustomRegex" ParagraphStartRegex="(?&lt;!.)(/+|\[+(?!quote)[^\]]+\]+|\n?=+ *|\n?-+ *|\n?_+ *|\n?\*+ *|\n?\++|\n?\^+|\n?~+|\n?\.+ *|\n?\| *=*|\n?`{3} *|\n?:.*?(?&lt;!toc-title.*?): *[\w-_: \.]*|\n?\n)" />
+  <ParagraphSettings>
+    <ParagraphRule RuleIndex="0" Rule="(\[+(?!quote)[^\]]+\]+|\n?=+ *|\n?-+ *|\n?_+ *|\n?\*+ *|\n?\++|\n?\^+|\n?~+|\n?\.+ *|\n?\| *=*|\n?`{3} *|\n?:.*?(?&lt;!toc-title.*?): *[\w-_: \.]*|\n?'''|\n?\n)(.*?)">
+      <ContentGroups>
+        <ContentGroup GroupId="2" Context="" Comment="" LengthGroupId="" />
+      </ContentGroups>
+    </ParagraphRule>
+  </ParagraphSettings>
+  <IncludeExcludeSettings IncludeContent="no" />
+  <ReferenceFiles>
+    <ReferenceFilePath>C:\Users\jourikc\Desktop\YIT\Asciidoc\asciidoc\systemguide.adoc</ReferenceFilePath>
+    <ReferenceFilePath>O:\YIT\Asciidoc\asciidoc\Sample.adoc</ReferenceFilePath>
+    <ReferenceFilePath>\\fileserverhome\users$\jourikc\Desktop\Asciidoc\asciidoc-samples-master\demo.adoc</ReferenceFilePath>
+    <ReferenceFilePath>\\fileserverhome\users$\jourikc\Desktop\Asciidoc\Source_Asciidoc\runtime.adoc</ReferenceFilePath>
+  </ReferenceFiles>
+</MemoQFilterConfiguration>
+</ChainedFilterConfigurationElement>
+  <ChainedFilterConfigurationElement convertername="MemoQ.DocConverters.RegexTagger.RegexConverter">
+<MemoQFilterConfiguration filtername="Regex Filter" version="V1">
+  <TaggerRules handlestabsandnewlines="False">
+    <TaggerRule tagtype="Empty" required="False" displaytext="$1">
+      <Expression>^(CAUTION|IMPORTANT|NOTE|TIP|WARNING): *</Expression>
+    </TaggerRule>
+    <TaggerRule tagtype="Empty" required="False" displaytext="$1">
+      <Expression>(image)::?(?&lt;! ).+?\.(jpe?g|png|svg)(?!\[[^\]]+\])</Expression>
+    </TaggerRule>
+    <TaggerRule tagtype="Open" required="False" displaytext="$1">
+      <Expression>(image)::?(?&lt;! ).+?\.(jpe?g|png|svg)\[</Expression>
+    </TaggerRule>
+    <TaggerRule tagtype="Open" required="False" displaytext="$1">
+      <Expression>(footnote|indexterm):\[</Expression>
+    </TaggerRule>
+    <TaggerRule tagtype="Open" required="False" displaytext="$1">
+      <Expression>(link):[\w/\.\?%=]*\[?</Expression>
+    </TaggerRule>
+    <TaggerRule tagtype="Empty" required="False" displaytext="$1">
+      <Expression>(xref):</Expression>
+    </TaggerRule>
+    <TaggerRule tagtype="Empty" required="False" displaytext="$1">
+      <Expression>(menu|btn|kbd):</Expression>
+    </TaggerRule>
+    <TaggerRule tagtype="Empty" required="False" displaytext="$0">
+      <Expression>(endif|ifn?def|include( file)?)::[\w-\.]*(\[\])?</Expression>
+    </TaggerRule>
+    <TaggerRule tagtype="Empty" required="False" displaytext="$1">
+      <Expression>:(toc-title):( pass:)?</Expression>
+    </TaggerRule>
+    <TaggerRule tagtype="Empty" required="False" displaytext="$0">
+      <Expression>header_footer(: (true|false))?</Expression>
+    </TaggerRule>
+    <TaggerRule tagtype="Empty" required="False" displaytext="$0">
+      <Expression>&lt;&lt;[^,]+&gt;&gt;</Expression>
+    </TaggerRule>
+    <TaggerRule tagtype="Open" required="False" displaytext="&lt;&lt;">
+      <Expression>&lt;&lt;(.+?, ?)</Expression>
+    </TaggerRule>
+    <TaggerRule tagtype="Close" required="False" displaytext="$0">
+      <Expression>&gt;&gt;</Expression>
+    </TaggerRule>
+    <TaggerRule tagtype="Empty" required="False" displaytext="$0">
+      <Expression>(_+|\*+|\^|~|\++|"?`+"?)</Expression>
+    </TaggerRule>
+    <TaggerRule tagtype="Empty" required="False" displaytext="$0">
+      <Expression>&lt;.+?@.+?&gt;</Expression>
+    </TaggerRule>
+    <TaggerRule tagtype="Empty" required="False" displaytext="$0">
+      <Expression>&lt;https?.+?&gt;</Expression>
+    </TaggerRule>
+    <TaggerRule tagtype="Empty" required="False" displaytext="$0">
+      <Expression>\\?\{[^\}]+\}</Expression>
+    </TaggerRule>
+    <TaggerRule tagtype="Empty" required="False" displaytext="$0">
+      <Expression>\[{2,}[^\]]+\]{2,}</Expression>
+    </TaggerRule>
+    <TaggerRule tagtype="Empty" required="False" displaytext="$0">
+      <Expression>(?&lt;!https?):.+?:</Expression>
+    </TaggerRule>
+    <TaggerRule tagtype="Open" required="False" displaytext="$0">
+      <Expression>\({2,}</Expression>
+    </TaggerRule>
+    <TaggerRule tagtype="Close" required="False" displaytext="$0">
+      <Expression>\){2,}</Expression>
+    </TaggerRule>
+    <TaggerRule tagtype="Empty" required="False" displaytext="$0">
+      <Expression>:{2,}</Expression>
+    </TaggerRule>
+    <TaggerRule tagtype="Empty" required="False" displaytext="$0">
+      <Expression>\((C|R|TM)\)</Expression>
+    </TaggerRule>
+    <TaggerRule tagtype="Open" required="False" displaytext="$1">
+      <Expression>\[(quote), </Expression>
+    </TaggerRule>
+    <TaggerRule tagtype="Empty" required="False" displaytext="$0">
+      <Expression>(\+|\\)$</Expression>
+    </TaggerRule>
+    <TaggerRule tagtype="Empty" required="False" displaytext="|">
+      <Expression> +\| +</Expression>
+    </TaggerRule>
+    <TaggerRule tagtype="Empty" required="False" displaytext="$0">
+      <Expression>\[\]</Expression>
+    </TaggerRule>
+    <TaggerRule tagtype="Open" required="False" displaytext="[">
+      <Expression>\[(?!\])</Expression>
+    </TaggerRule>
+    <TaggerRule tagtype="Close" required="False" displaytext="]">
+      <Expression>(?&lt;!\[)\]</Expression>
+    </TaggerRule>
+    <TaggerRule tagtype="Open" required="False" displaytext="$0">
+      <Expression>&lt;(?!(/|, )).+?(?&lt;!/)&gt;</Expression>
+    </TaggerRule>
+    <TaggerRule tagtype="Close" required="False" displaytext="$0">
+      <Expression>&lt;/.+?&gt;</Expression>
+    </TaggerRule>
+    <TaggerRule tagtype="Empty" required="False" displaytext="$0">
+      <Expression>&lt;(?!/).+?/&gt;</Expression>
+    </TaggerRule>
+    <TaggerRule tagtype="Empty" required="False" displaytext="URL">
+      <Expression>https?://[a-z\d&amp;-_=\.\?\!]+</Expression>
+    </TaggerRule>
+    <TaggerRule tagtype="Empty" required="False" displaytext="$1">
+      <Expression>,(\d+|opts=interactive)</Expression>
+    </TaggerRule>
+    <TaggerRule tagtype="Empty" required="False" displaytext="SPACE">
+      <Expression> {2,}</Expression>
+    </TaggerRule>
+  </TaggerRules>
+  <ExampleText>
+  </ExampleText>
+</MemoQFilterConfiguration>
+</ChainedFilterConfigurationElement>
+</MemoQChainedFilterConfiguration>

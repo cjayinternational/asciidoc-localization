@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:mq="MQXliff" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+<file original="interdoc-xref.adoc" mq:id="ad6f0d3d-8389-40cf-82d6-543d9a166bd3" mq:projectid="a6ffa31a-4178-4717-8cf4-a0ac052fbcbb" source-language="en" target-language="es" datatype="x-chained">
+<header>
+<tool tool-id="MQ" tool-name="MemoQ" tool-version="9.3.13" tool-company="Kilgray" />
+<mq:export-path>\\fileserverhome\users$\jourikc\Desktop\Asciidoc\Source_Asciidoc\interdoc-xref_spa.adoc</mq:export-path>
+<mq:docinformation mq:isabstract="isabstract" mq:hashistory="true" mq:docname="interdoc-xref.adoc" mq:majorversion="1" mq:minorversion="2" mq:nosplitjoin="false" mq:langindepgroupid="426d732e-e59d-43f5-8e96-30cb6a3c3515" mq:multidocgroupid="5c4c2fbd-9b31-4409-8131-4e1125de2e3e" mq:origfile="\\fileserverhome\users$\jourikc\Desktop\Asciidoc\Source_Asciidoc\interdoc-xref.adoc" mq:numberofwords="31" mq:filterconfigname="Asciidoc" mq:filterconfigserverurl="yamagata.memoqworld.com" mq:changetrackingenabledstates="Off,Off,Off,Off">
+<mq:versioninfos mq:majorversion="1"><mq:minorversioninfo mq:minorversion="0" mq:comment="" mq:createdthroughview="false" mq:createreason="Import" mq:creationtime="406082057" mq:creatoruser="jourikc" mq:tag=""><mq:details mq:type="MinorVersionDetailsImport"><![CDATA[<?xml version="1.0"?>
+<MinorVersionDetailsImport xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <FilePath>\\fileserverhome\users$\jourikc\Desktop\Asciidoc\Source_Asciidoc\interdoc-xref.adoc</FilePath>
+</MinorVersionDetailsImport>]]></mq:details></mq:minorversioninfo>
+<mq:minorversioninfo mq:minorversion="1" mq:comment="" mq:createdthroughview="false" mq:createreason="Export" mq:creationtime="406082173" mq:creatoruser="jourikc" mq:tag=""><mq:details /></mq:minorversioninfo>
+<mq:minorversioninfo mq:minorversion="2" mq:comment="" mq:createdthroughview="false" mq:createreason="BilingualExport" mq:creationtime="406082194" mq:creatoruser="jourikc" mq:tag=""><mq:details mq:type="MinorVersionDetailsBilingExport"><![CDATA[<?xml version="1.0"?>
+<MinorVersionDetailsBilingExport xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <BilingualType>Xliff</BilingualType>
+  <TargetPath>\\fileserverhome\users$\jourikc\Desktop\Asciidoc\XLIFF_TMX\interdoc-xref.adoc_spa.mqxliff</TargetPath>
+  <TwoColumpRtfProperties>MutipleDocuments</TwoColumpRtfProperties>
+  <BilingRtfProperties>EmptySegmentsWithMarkup</BilingRtfProperties>
+  <XliffProperties>IncludePreview</XliffProperties>
+</MinorVersionDetailsBilingExport>]]></mq:details></mq:minorversioninfo>
+</mq:versioninfos>
+<mq:tagdefinition alignhighlight="false" caseinsensitive="false" rawhtml="false" showitags="true" basicformat="false" supersubscript="false" xmlcommands="false"><mq:tagdefelement name="mq:ch" placeholder="false" tagrequired="Normal"><mq:tagdefattribute name="val" filtered="false" required="true" translatable="false" /></mq:tagdefelement><mq:tagdefelement name="mq:rxt" placeholder="false" tagrequired="Normal"><mq:tagdefattribute name="val" filtered="false" required="false" translatable="false" /><mq:tagdefattribute name="displaytext" filtered="false" required="false" translatable="false" /></mq:tagdefelement><mq:tagdefelement name="mq:rxt-req" placeholder="true" tagrequired="Required"><mq:tagdefattribute name="displaytext" filtered="true" required="true" translatable="false" /><mq:tagdefattribute name="val" filtered="true" required="true" translatable="false" /></mq:tagdefelement></mq:tagdefinition>
+<mq:doccomments />
+<mq:lqamodel><![CDATA[<XMLSerializedLQAModel xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><Version>1</Version><Name /><RevisionID>00000000-0000-0000-0000-000000000000</RevisionID><UseSeverityLevels>false</UseSeverityLevels><UsePenaltyPoints>false</UsePenaltyPoints><RequiresReviewerCommenting>false</RequiresReviewerCommenting><SeverityLevelNames /><ModelEntries /><PassFailCriterion><CountMultipleErrorOccuranceAsOne>false</CountMultipleErrorOccuranceAsOne><CritDefType>PenaltyPoints</CritDefType><PenaltyPointsNominator>0</PenaltyPointsNominator><PenaltyPointPerWordsDenominator>0</PenaltyPointPerWordsDenominator><NormalizedPenaltyScoreLimit>0</NormalizedPenaltyScoreLimit><CritDefinitionRules /></PassFailCriterion><QALQAMapping /><Timestamp>0001-01-01T00:00:00</Timestamp></XMLSerializedLQAModel>]]></mq:lqamodel>
+<mq:externalpreviewinfo>
+<mq:previewidsbylabels>
+<mq:previewidbylabel mq:label="1" mq:previewid="mQ-default-55f31732-2c7b-4452-8f84-f7ed5295d484-1" />
+<mq:previewidbylabel mq:label="2" mq:previewid="mQ-default-55f31732-2c7b-4452-8f84-f7ed5295d484-2" />
+</mq:previewidsbylabels>
+</mq:externalpreviewinfo>
+</mq:docinformation>
+</header>
+<body>
+<trans-unit id="1" mq:minorversionend="2" mq:minorversionstart="1" mq:status="ManuallyConfirmed" mq:percent="101" mq:segmentguid="21bcbc9d-bb9d-42f6-a71a-f41a0f966118" mq:translatorcommitmatchrate="101" mq:translatorcommitusername="" mq:translatorcommittimestamp="2020-10-29T13:03:01Z" mq:lastchangedtimestamp="2020-10-29T13:03:01Z" mq:lastchanginguser="jourikc" mq:maxlengthchars="-1" mq:nosplitjoin="false" mq:firstlabel="1" mq:lastlabel="2" mq:autosplitjoinstate="0" mq:lastmodifrole="0" mq:multipleexactmatch="false">
+<source xml:space="preserve" mq:segpart="2" mq:hasfollowingobject="hasfollowingobject">Interdoc<x id="1" />This page shows an example of an inter-document cross reference (i.e., xref) to <bpt id="2" rid="1">&lt;mq:rxt displaytext=&quot;&amp;lt;&amp;lt;&quot; val=&quot;&amp;lt;&amp;lt;article#,&quot;&gt;</bpt>article<ph id="3">&lt;mq:rxt displaytext=&quot;{outfilesuffix}&quot; val=&quot;{outfilesuffix}&quot; /&gt;</ph><ept id="4" rid="1">&lt;/mq:rxt displaytext=&quot;&amp;gt;&amp;gt;&quot; val=&quot;&amp;gt;&amp;gt;&quot;&gt;</ept> from this document.</source>
+<target xml:space="preserve">Inter-documento<x id="1" />Esta página muestra un ejemplo de una referencia cruzada inter-documento (es decir, xref) a <bpt id="2" rid="2">&lt;mq:rxt displaytext=&quot;&amp;lt;&amp;lt;&quot; val=&quot;&amp;lt;&amp;lt;article#,&quot;&gt;</bpt>article<ph id="3">&lt;mq:rxt displaytext=&quot;{outfilesuffix}&quot; val=&quot;{outfilesuffix}&quot; /&gt;</ph><ept id="4" rid="2">&lt;/mq:rxt displaytext=&quot;&amp;gt;&amp;gt;&quot; val=&quot;&amp;gt;&amp;gt;&quot;&gt;</ept> de este documento.</target>
+<context-group>
+<context context-type="x-mmq-structural-context"></context>
+</context-group>
+<mq:minorversions>
+<mq:historical-unit mq:minorversionend="0" mq:minorversionstart="0" mq:status="NotStarted" mq:segmentguid="21bcbc9d-bb9d-42f6-a71a-f41a0f966118" mq:lastchangedtimestamp="0001-01-01T00:00:00Z" mq:maxlengthchars="-1" mq:nosplitjoin="false" mq:firstlabel="1" mq:lastlabel="2" mq:autosplitjoinstate="0" mq:lastmodifrole="0" mq:multipleexactmatch="false">
+<source xml:space="preserve" mq:segpart="2" mq:hasfollowingobject="hasfollowingobject">Interdoc<x id="1" />This page shows an example of an inter-document cross reference (i.e., xref) to <bpt id="2" rid="1">&lt;mq:rxt displaytext=&quot;&amp;lt;&amp;lt;&quot; val=&quot;&amp;lt;&amp;lt;article#,&quot;&gt;</bpt>article<ph id="3">&lt;mq:rxt displaytext=&quot;{outfilesuffix}&quot; val=&quot;{outfilesuffix}&quot; /&gt;</ph><ept id="4" rid="1">&lt;/mq:rxt displaytext=&quot;&amp;gt;&amp;gt;&quot; val=&quot;&amp;gt;&amp;gt;&quot;&gt;</ept> from this document.</source>
+<target xml:space="preserve"></target>
+<context-group>
+<context context-type="x-mmq-structural-context"></context>
+</context-group>
+<mq:startingws xml:space="preserve" />
+<mq:endingws xml:space="preserve"> </mq:endingws>
+<mq:commitinfos xmlns="MQXliff" /><mq:nosplitjoins />
+<mq:originalsource edited="false" />
+</mq:historical-unit>
+</mq:minorversions>
+<mq:startingws xml:space="preserve" />
+<mq:endingws xml:space="preserve"> </mq:endingws>
+<mq:commitinfos xmlns="MQXliff"><commitinfo matchrate="101" role="1000" timestamp="2020-10-29T13:03:01Z" username="" editingtime="0" /></mq:commitinfos><mq:nosplitjoins />
+<mq:originalsource edited="false" />
+<mq:insertedmatch matchtype="0" source="Asciidoc samples / jourikc" matchrate="101" originalmatchrate="0" ambiguousexact="false" hitfororiginalsegementversion="false" />
+</trans-unit>
+<trans-unit id="2" mq:minorversionend="2" mq:minorversionstart="1" mq:status="ManuallyConfirmed" mq:percent="101" mq:segmentguid="3faa4ff8-a451-4bae-9d70-6597f42a9fa7" mq:translatorcommitmatchrate="101" mq:translatorcommitusername="" mq:translatorcommittimestamp="2020-10-29T13:03:01Z" mq:lastchangedtimestamp="2020-10-29T13:03:01Z" mq:lastchanginguser="jourikc" mq:maxlengthchars="-1" mq:nosplitjoin="false" mq:firstlabel="2" mq:lastlabel="2" mq:autosplitjoinstate="0" mq:lastmodifrole="0" mq:multipleexactmatch="false">
+<source xml:space="preserve" mq:segpart="2">No additional settings are needed in order for this to work on GitHub.</source>
+<target xml:space="preserve">No se necesita ninguna configuración adicional para que esto funcione en GitHub.</target>
+<context-group>
+<context context-type="x-mmq-structural-context"></context>
+</context-group>
+<mq:minorversions>
+<mq:historical-unit mq:minorversionend="0" mq:minorversionstart="0" mq:status="NotStarted" mq:segmentguid="3faa4ff8-a451-4bae-9d70-6597f42a9fa7" mq:lastchangedtimestamp="0001-01-01T00:00:00Z" mq:maxlengthchars="-1" mq:nosplitjoin="false" mq:firstlabel="2" mq:lastlabel="2" mq:autosplitjoinstate="0" mq:lastmodifrole="0" mq:multipleexactmatch="false">
+<source xml:space="preserve" mq:segpart="2" mq:hasfollowingobject="hasfollowingobject">No additional settings are needed in order for this to work on GitHub.</source>
+<target xml:space="preserve"></target>
+<context-group>
+<context context-type="x-mmq-structural-context"></context>
+</context-group>
+<mq:startingws xml:space="preserve" />
+<mq:endingws xml:space="preserve" />
+<mq:commitinfos xmlns="MQXliff" /><mq:nosplitjoins />
+<mq:originalsource edited="false" />
+</mq:historical-unit>
+</mq:minorversions>
+<mq:startingws xml:space="preserve" />
+<mq:endingws xml:space="preserve" />
+<mq:commitinfos xmlns="MQXliff"><commitinfo matchrate="101" role="1000" timestamp="2020-10-29T13:03:01Z" username="" editingtime="0" /></mq:commitinfos><mq:nosplitjoins />
+<mq:originalsource edited="false" />
+<mq:insertedmatch matchtype="0" source="Asciidoc samples / jourikc" matchrate="101" originalmatchrate="0" ambiguousexact="false" hitfororiginalsegementversion="false" />
+</trans-unit>
+</body>
+</file>
+</xliff>
