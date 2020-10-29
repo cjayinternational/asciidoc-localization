@@ -1,19 +1,23 @@
 # Asciidoc localization
 Localization resources for Asciidoc
 
-This repository includes source Asciidoc files (English) and their dummy translations (Spanish), the translated Asciidoc files converted to HTML, a parser (memoQ), XLIFF files (memoQ) and a TMX.
+This repository includes the following resources:
+- English Asciidoc files
+- machine translations into Spanish
+- HTML conversion of the translated Asciidoc files
+- parser (memoQ)
+- XLIFF files (memoQ)
+- TMX
 
-NOTE: The parser is created based on the source Asciidoc files included in this repository. When using it to translate other Asciidoc files, it might need to be modified.
-
-The parser is able to deal with a couple of delicate things in Asciidoc such as:
+The parser for memoQ is regex-based. It has been created based on the English Asciidoc files included in this repository. When using it to translate another set of Asciidoc files, it might need to be modified. The parser deals with many delicate things in Asciidoc such as:
 - alt text in images
 - comments
+- footnotes, hyperlinks
 - formatting
-- hyperlinks, footnotes
 - paragraph delimiters
 - xrefs
 
-In order to make everything work properly, authors of Asciidoc files need to:
+Note that it is very important to write Asciidoc files with localization in mind. These are a couple of things that technical writers should do to ensure a clean import of the Asciidoc files into memoQ using the provided parser:
 - avoid multi-line comments
 - avoid obsolete newlines
 - start every file with a title
