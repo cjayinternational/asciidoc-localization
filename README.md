@@ -12,8 +12,9 @@ This repository includes the following resources:
 The parser for memoQ is regex-based. It has been created based on the English Asciidoc files included in this repository. When using it to translate another set of Asciidoc files, it might need to be modified. The parser deals with many delicate things in Asciidoc such as:
 - alt text in images
 - comments
-- footnotes, hyperlinks
+- footnotes
 - formatting
+- hyperlinks
 - paragraph delimiters
 - xrefs
 
