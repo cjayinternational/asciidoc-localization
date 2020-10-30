@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:mq="MQXliff" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+<file original="hard-line-breaks.adoc" mq:id="0fcae091-1fdd-4036-885e-56b828885f1a" mq:projectid="a6ffa31a-4178-4717-8cf4-a0ac052fbcbb" source-language="en" target-language="es" datatype="x-chained">
+<header>
+<tool tool-id="MQ" tool-name="MemoQ" tool-version="9.3.13" tool-company="Kilgray" />
+<mq:export-path>\\fileserverhome\users$\jourikc\Desktop\Asciidoc\Source_Asciidoc\hard-line-breaks_spa.adoc</mq:export-path>
+<mq:docinformation mq:isabstract="isabstract" mq:hashistory="true" mq:docname="hard-line-breaks.adoc" mq:majorversion="1" mq:minorversion="2" mq:nosplitjoin="false" mq:langindepgroupid="c54671d9-3c0f-4d5a-af6e-5eaca7948f6b" mq:multidocgroupid="767ef870-db7b-48ac-bf83-7f0a509a3ef7" mq:origfile="\\fileserverhome\users$\jourikc\Desktop\Asciidoc\Source_Asciidoc\hard-line-breaks.adoc" mq:numberofwords="154" mq:filterconfigname="Asciidoc" mq:changetrackingenabledstates="Off,Off,Off,Off">
+<mq:versioninfos mq:majorversion="1"><mq:minorversioninfo mq:minorversion="0" mq:comment="" mq:createdthroughview="false" mq:createreason="Import" mq:creationtime="406082056" mq:creatoruser="jourikc" mq:tag=""><mq:details mq:type="MinorVersionDetailsImport"><![CDATA[<?xml version="1.0"?>
+<MinorVersionDetailsImport xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <FilePath>\\fileserverhome\users$\jourikc\Desktop\Asciidoc\Source_Asciidoc\hard-line-breaks.adoc</FilePath>
+</MinorVersionDetailsImport>]]></mq:details></mq:minorversioninfo>
+<mq:minorversioninfo mq:minorversion="1" mq:comment="" mq:createdthroughview="false" mq:createreason="Export" mq:creationtime="406082173" mq:creatoruser="jourikc" mq:tag=""><mq:details /></mq:minorversioninfo>
+<mq:minorversioninfo mq:minorversion="2" mq:comment="" mq:createdthroughview="false" mq:createreason="BilingualExport" mq:creationtime="406082194" mq:creatoruser="jourikc" mq:tag=""><mq:details mq:type="MinorVersionDetailsBilingExport"><![CDATA[<?xml version="1.0"?>
+<MinorVersionDetailsBilingExport xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <BilingualType>Xliff</BilingualType>
+  <TargetPath>\\fileserverhome\users$\jourikc\Desktop\Asciidoc\XLIFF_TMX\hard-line-breaks.adoc_spa.mqxliff</TargetPath>
+  <TwoColumpRtfProperties>MutipleDocuments</TwoColumpRtfProperties>
+  <BilingRtfProperties>EmptySegmentsWithMarkup</BilingRtfProperties>
+  <XliffProperties>IncludePreview</XliffProperties>
+</MinorVersionDetailsBilingExport>]]></mq:details></mq:minorversioninfo>
+</mq:versioninfos>
+<mq:tagdefinition alignhighlight="false" caseinsensitive="false" rawhtml="false" showitags="true" basicformat="false" supersubscript="false" xmlcommands="false"><mq:tagdefelement name="mq:ch" placeholder="false" tagrequired="Normal"><mq:tagdefattribute name="val" filtered="false" required="true" translatable="false" /></mq:tagdefelement><mq:tagdefelement name="mq:rxt" placeholder="false" tagrequired="Normal"><mq:tagdefattribute name="val" filtered="false" required="false" translatable="false" /><mq:tagdefattribute name="displaytext" filtered="false" required="false" translatable="false" /></mq:tagdefelement><mq:tagdefelement name="mq:rxt-req" placeholder="true" tagrequired="Required"><mq:tagdefattribute name="displaytext" filtered="true" required="true" translatable="false" /><mq:tagdefattribute name="val" filtered="true" required="true" translatable="false" /></mq:tagdefelement></mq:tagdefinition>
+<mq:doccomments />
+<mq:lqamodel><![CDATA[<XMLSerializedLQAModel xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><Version>1</Version><Name /><RevisionID>00000000-0000-0000-0000-000000000000</RevisionID><UseSeverityLevels>false</UseSeverityLevels><UsePenaltyPoints>false</UsePenaltyPoints><RequiresReviewerCommenting>false</RequiresReviewerCommenting><SeverityLevelNames /><ModelEntries /><PassFailCriterion><CountMultipleErrorOccuranceAsOne>false</CountMultipleErrorOccuranceAsOne><CritDefType>PenaltyPoints</CritDefType><PenaltyPointsNominator>0</PenaltyPointsNominator><PenaltyPointPerWordsDenominator>0</PenaltyPointPerWordsDenominator><NormalizedPenaltyScoreLimit>0</NormalizedPenaltyScoreLimit><CritDefinitionRules /></PassFailCriterion><QALQAMapping /><Timestamp>0001-01-01T00:00:00</Timestamp></XMLSerializedLQAModel>]]></mq:lqamodel>
+<mq:externalpreviewinfo>
+<mq:previewidsbylabels>
+<mq:previewidbylabel mq:label="1" mq:previewid="mQ-default-215aa974-b1c9-4cbc-8731-e3edb3f5d202-1" />
+<mq:previewidbylabel mq:label="2" mq:previewid="mQ-default-215aa974-b1c9-4cbc-8731-e3edb3f5d202-2" />
+<mq:previewidbylabel mq:label="3" mq:previewid="mQ-default-215aa974-b1c9-4cbc-8731-e3edb3f5d202-3" />
+<mq:previewidbylabel mq:label="4" mq:previewid="mQ-default-215aa974-b1c9-4cbc-8731-e3edb3f5d202-4" />
+<mq:previewidbylabel mq:label="5" mq:previewid="mQ-default-215aa974-b1c9-4cbc-8731-e3edb3f5d202-5" />
+<mq:previewidbylabel mq:label="6" mq:previewid="mQ-default-215aa974-b1c9-4cbc-8731-e3edb3f5d202-6" />
+<mq:previewidbylabel mq:label="7" mq:previewid="mQ-default-215aa974-b1c9-4cbc-8731-e3edb3f5d202-7" />
+<mq:previewidbylabel mq:label="8" mq:previewid="mQ-default-215aa974-b1c9-4cbc-8731-e3edb3f5d202-8" />
+<mq:previewidbylabel mq:label="9" mq:previewid="mQ-default-215aa974-b1c9-4cbc-8731-e3edb3f5d202-9" />
+<mq:previewidbylabel mq:label="10" mq:previewid="mQ-default-215aa974-b1c9-4cbc-8731-e3edb3f5d202-10" />
+<mq:previewidbylabel mq:label="11" mq:previewid="mQ-default-215aa974-b1c9-4cbc-8731-e3edb3f5d202-11" />
+<mq:previewidbylabel mq:label="12" mq:previewid="mQ-default-215aa974-b1c9-4cbc-8731-e3edb3f5d202-12" />
+<mq:previewidbylabel mq:label="13" mq:previewid="mQ-default-215aa974-b1c9-4cbc-8731-e3edb3f5d202-13" />
+<mq:previewidbylabel mq:label="14" mq:previewid="mQ-default-215aa974-b1c9-4cbc-8731-e3edb3f5d202-14" />
+<mq:previewidbylabel mq:label="15" mq:previewid="mQ-default-215aa974-b1c9-4cbc-8731-e3edb3f5d202-15" />
+<mq:previewidbylabel mq:label="16" mq:previewid="mQ-default-215aa974-b1c9-4cbc-8731-e3edb3f5d202-16" />
+<mq:previewidbylabel mq:label="17" mq:previewid="mQ-default-215aa974-b1c9-4cbc-8731-e3edb3f5d202-17" />
+<mq:previewidbylabel mq:label="18" mq:previewid="mQ-default-215aa974-b1c9-4cbc-8731-e3edb3f5d202-18" />
+<mq:previewidbylabel mq:label="19" mq:previewid="mQ-default-215aa974-b1c9-4cbc-8731-e3edb3f5d202-19" />
+</mq:previewidsbylabels>
+</mq:externalpreviewinfo>
+</mq:docinformation>
+</header>
+<body>
+<trans-unit id="1" mq:minorversionend="2" mq:minorversionstart="1" mq:status="ManuallyConfirmed" mq:percent="101" mq:segmentguid="3d605cb0-f9ff-4ffb-8bd6-fe5b578397d4" mq:translatorcommitmatchrate="101" mq:translatorcommitusername="" mq:translatorcommittimestamp="2020-10-29T13:03:01Z" mq:lastchangedtimestamp="2020-10-29T13:03:01Z" mq:lastchanginguser="jourikc" mq:maxlengthchars="-1" mq:nosplitjoin="false" mq:firstlabel="1" mq:lastlabel="1" mq:autosplitjoinstate="0" mq:lastmodifrole="0" mq:multipleexactmatch="false">
+<source xml:space="preserve" mq:segpart="1">Hard line breaks</source>
+<target xml:space="preserve">Rupturas de línea duras</target>
+<context-group>
+<context context-type="x-mmq-structural-context"></context>
+</context-group>
+<mq:minorversions>
+<mq:historical-unit mq:minorversionend="0" mq:minorversionstart="0" mq:status="NotStarted" mq:segmentguid="3d605cb0-f9ff-4ffb-8bd6-fe5b578397d4" mq:lastchangedtimestamp="0001-01-01T00:00:00Z" mq:maxlengthchars="-1" mq:nosplitjoin="false" mq:firstlabel="1" mq:lastlabel="1" mq:autosplitjoinstate="0" mq:lastmodifrole="0" mq:multipleexactmatch="false">
+<source xml:space="preserve" mq:segpart="1" mq:hasfollowingobject="hasfollowingobject">Hard line breaks</source>
+<target xml:space="preserve"></target>
+<context-group>
+<context context-type="x-mmq-structural-context"></context>
+</context-group>
+<mq:startingws xml:space="preserve" />
+<mq:endingws xml:space="preserve" />
+<mq:commitinfos xmlns="MQXliff" /><mq:nosplitjoins />
+<mq:originalsource edited="false" />
+</mq:historical-unit>
+</mq:minorversions>
+<mq:startingws xml:space="preserve" />
+<mq:endingws xml:space="preserve" />
+<mq:commitinfos xmlns="MQXliff"><commitinfo matchrate="101" role="1000" timestamp="2020-10-29T13:03:01Z" username="" editingtime="0" /></mq:commitinfos><mq:nosplitjoins />
+<mq:originalsource edited="false" />
+<mq:insertedmatch matchtype="0" source="Asciidoc samples / jourikc" matchrate="101" originalmatchrate="0" ambiguousexact="false" hitfororiginalsegementversion="false" />
+</trans-unit>
+<trans-unit id="2" mq:minorversionend="2" mq:minorversionstart="1" mq:status="ManuallyConfirmed" mq:percent="101" mq:segmentguid="e85df588-faec-4bd2-b4cb-6815d3a4ab79" mq:translatorcommitmatchrate="101" mq:translatorcommitusername="" mq:translatorcommittimestamp="2020-10-29T13:03:01Z" mq:lastchangedtimestamp="2020-10-29T13:03:01Z" mq:lastchanginguser="jourikc" mq:maxlengthchars="-1" mq:nosplitjoin="false" mq:firstlabel="2" mq:lastlabel="2" mq:autosplitjoinstate="0" mq:lastmodifrole="0" mq:multipleexactmatch="false">
+<source xml:space="preserve" mq:segpart="2">(View the source of this document to see how the hard line breaks are being controlled).</source>
+<target xml:space="preserve">(Vea la fuente de este documento para ver cómo se controlan las rupturas de línea duras).</target>
+<context-group>
+<context context-type="x-mmq-structural-context"></context>
+</context-group>
+<mq:minorversions>
+<mq:historical-unit mq:minorversionend="0" mq:minorversionstart="0" mq:status="NotStarted" mq:segmentguid="e85df588-faec-4bd2-b4cb-6815d3a4ab79" mq:lastchangedtimestamp="0001-01-01T00:00:00Z" mq:maxlengthchars="-1" mq:nosplitjoin="false" mq:firstlabel="2" mq:lastlabel="2" mq:autosplitjoinstate="0" mq:lastmodifrole="0" mq:multipleexactmatch="false">
+<source xml:space="preserve" mq:segpart="2" mq:hasfollowingobject="hasfollowingobject">(View the source of this document to see how the hard line breaks are being controlled).</source>
+<target xml:space="preserve"></target>
+<context-group>
+<context context-type="x-mmq-structural-context"></context>
+</context-group>
+<mq:startingws xml:space="preserve" />
+<mq:endingws xml:space="preserve" />
+<mq:commitinfos xmlns="MQXliff" /><mq:nosplitjoins />
+<mq:originalsource edited="false" />
+</mq:historical-unit>
+</mq:minorversions>
+<mq:startingws xml:space="preserve" />
+<mq:endingws xml:space="preserve" />
+<mq:commitinfos xmlns="MQXliff"><commitinfo matchrate="101" role="1000" timestamp="2020-10-29T13:03:01Z" username="" editingtime="0" /></mq:commitinfos><mq:nosplitjoins />
+<mq:originalsource edited="false" />
+<mq:insertedmatch matchtype="0" source="Asciidoc samples / jourikc" matchrate="101" originalmatchrate="0" ambiguousexact="false" hitfororiginalsegementversion="false" />
+</trans-unit>
+<trans-unit id="3" mq:minorversionend="2" mq:minorversionstart="1" mq:status="ManuallyConfirmed" mq:percent="101" mq:segmentguid="5edbdcfc-0b8a-4ede-9c6d-cf784a2a6d78" mq:translatorcommitmatchrate="101" mq:translatorcommitusername="" mq:translatorcommittimestamp="2020-10-29T13:03:01Z" mq:lastchangedtimestamp="2020-10-29T13:03:01Z" mq:lastchanginguser="jourikc" mq:maxlengthchars="-1" mq:nosplitjoin="false" mq:firstlabel="3" mq:lastlabel="3" mq:autosplitjoinstate="0" mq:lastmodifrole="0" mq:multipleexactmatch="false">
+<source xml:space="preserve" mq:segpart="3">By default, newlines between consecutive lines in prose (i.e., paragraph text) are not preserved.</source>
+<target xml:space="preserve">Por defecto, no se conservan las nuevas líneas entre líneas consecutivas en prosa (es decir, el texto del párrafo).</target>
+<context-group>
+<context context-type="x-mmq-structural-context"></context>
+</context-group>
+<mq:minorversions>
+<mq:historical-unit mq:minorversionend="0" mq:minorversionstart="0" mq:status="NotStarted" mq:segmentguid="5edbdcfc-0b8a-4ede-9c6d-cf784a2a6d78" mq:lastchangedtimestamp="0001-01-01T00:00:00Z" mq:maxlengthchars="-1" mq:nosplitjoin="false" mq:firstlabel="3" mq:lastlabel="3" mq:autosplitjoinstate="0" mq:lastmodifrole="0" mq:multipleexactmatch="false">
+<source xml:space="preserve" mq:segpart="3" mq:hasfollowingobject="hasfollowingobject">By default, newlines between consecutive lines in prose (i.e., paragraph text) are not preserved.</source>
+<target xml:space="preserve"></target>
+<context-group>
+<context context-type="x-mmq-structural-context"></context>
+</context-group>
+<mq:startingws xml:space="preserve" />
+<mq:endingws xml:space="preserve"> </mq:endingws>
+<mq:commitinfos xmlns="MQXliff" /><mq:nosplitjoins />
+<mq:originalsource edited="false" />
+</mq:historical-unit>
+</mq:minorversions>
+<mq:startingws xml:space="preserve" />
+<mq:endingws xml:space="preserve"> </mq:endingws>
+<mq:commitinfos xmlns="MQXliff"><commitinfo matchrate="101" role="1000" timestamp="2020-10-29T13:03:01Z" username="" editingtime="0" /></mq:commitinfos><mq:nosplitjoins />
+<mq:originalsource edited="false" />
+<mq:insertedmatch matchtype="0" source="Asciidoc samples / jourikc" matchrate="101" originalmatchrate="0" ambiguousexact="false" hitfororiginalsegementversion="false" />
+</trans-unit>
+<trans-unit id="4" mq:minorversionend="2" mq:minorversionstart="1" mq:status="ManuallyConfirmed" mq:percent="101" mq:segmentguid="4f0ae9ed-e7c4-4cd6-9c60-ff03489bcd7f" mq:translatorcommitmatchrate="101" mq:translatorcommitusername="" mq:translatorcommittimestamp="2020-10-29T13:03:01Z" mq:lastchangedtimestamp="2020-10-29T13:03:01Z" mq:lastchanginguser="jourikc" mq:maxlengthchars="-1" mq:nosplitjoin="false" mq:firstlabel="3" mq:lastlabel="3" mq:autosplitjoinstate="0" mq:lastmodifrole="0" mq:multipleexactmatch="false">
+<source xml:space="preserve" mq:segpart="3">They are treated as a single space, just like in HTML.</source>
+<target xml:space="preserve">Se tratan como un solo espacio, como en el HTML.</target>
+<context-group>
+<context context-type="x-mmq-structural-context"></context>
+</context-group>
+<mq:minorversions>
+<mq:historical-unit mq:minorversionend="0" mq:minorversionstart="0" mq:status="NotStarted" mq:segmentguid="4f0ae9ed-e7c4-4cd6-9c60-ff03489bcd7f" mq:lastchangedtimestamp="0001-01-01T00:00:00Z" mq:maxlengthchars="-1" mq:nosplitjoin="false" mq:firstlabel="3" mq:lastlabel="3" mq:autosplitjoinstate="0" mq:lastmodifrole="0" mq:multipleexactmatch="false">
+<source xml:space="preserve" mq:segpart="3" mq:hasfollowingobject="hasfollowingobject">They are treated as a single space, just like in HTML.</source>
+<target xml:space="preserve"></target>
+<context-group>
+<context context-type="x-mmq-structural-context"></context>
+</context-group>
+<mq:startingws xml:space="preserve" />
+<mq:endingws xml:space="preserve" />
+<mq:commitinfos xmlns="MQXliff" /><mq:nosplitjoins />
+<mq:originalsource edited="false" />
+</mq:historical-unit>
+</mq:minorversions>
+<mq:startingws xml:space="preserve" />
+<mq:endingws xml:space="preserve" />
+<mq:commitinfos xmlns="MQXliff"><commitinfo matchrate="101" role="1000" timestamp="2020-10-29T13:03:01Z" username="" editingtime="0" /></mq:commitinfos><mq:nosplitjoins />
+<mq:originalsource edited="false" />
+<mq:insertedmatch matchtype="0" source="Asciidoc samples / jourikc" matchrate="101" originalmatchrate="0" ambiguousexact="false" hitfororiginalsegementversion="false" />
+</trans-unit>
+<trans-unit id="5" mq:minorversionend="2" mq:minorversionstart="1" mq:status="ManuallyConfirmed" mq:percent="101" mq:segmentguid="af513173-5fe9-4b52-bce8-e235e5971f22" mq:translatorcommitmatchrate="101" mq:translatorcommitusername="" mq:translatorcommittimestamp="2020-10-29T13:03:01Z" mq:lastchangedtimestamp="2020-10-29T13:03:01Z" mq:lastchanginguser="jourikc" mq:maxlengthchars="-1" mq:nosplitjoin="false" mq:firstlabel="4" mq:lastlabel="6" mq:autosplitjoinstate="0" mq:lastmodifrole="0" mq:multipleexactmatch="false">
+<source xml:space="preserve" mq:segpart="6" mq:hasfollowingobject="hasfollowingobject">first line<x id="1" />second line<x id="2" />third line</source>
+<target xml:space="preserve">primera línea<x id="1" />segunda línea<x id="2" />tercera línea</target>
+<context-group>
+<context context-type="x-mmq-structural-context"></context>
+</context-group>
+<mq:minorversions>
+<mq:historical-unit mq:minorversionend="0" mq:minorversionstart="0" mq:status="NotStarted" mq:segmentguid="af513173-5fe9-4b52-bce8-e235e5971f22" mq:lastchangedtimestamp="0001-01-01T00:00:00Z" mq:maxlengthchars="-1" mq:nosplitjoin="false" mq:firstlabel="4" mq:lastlabel="6" mq:autosplitjoinstate="0" mq:lastmodifrole="0" mq:multipleexactmatch="false">
+<source xml:space="preserve" mq:segpart="6" mq:hasfollowingobject="hasfollowingobject">first line<x id="1" />second line<x id="2" />third line</source>
+<target xml:space="preserve"></target>
+<context-group>
+<context context-type="x-mmq-structural-context"></context>
+</context-group>
+<mq:startingws xml:space="preserve" />
+<mq:endingws xml:space="preserve" />
+<mq:commitinfos xmlns="MQXliff" /><mq:nosplitjoins />
+<mq:originalsource edited="false" />
+</mq:historical-unit>
+</mq:minorversions>
+<mq:startingws xml:space="preserve" />
+<mq:endingws xml:space="preserve" />
+<mq:commitinfos xmlns="MQXliff"><commitinfo matchrate="101" role="1000" timestamp="2020-10-29T13:03:01Z" username="" editingtime="0" /></mq:commitinfos><mq:nosplitjoins />
+<mq:originalsource edited="false" />
+<mq:insertedmatch matchtype="0" source="Asciidoc samples / jourikc" matchrate="101" originalmatchrate="0" ambiguousexact="false" hitfororiginalsegementversion="false" />
+</trans-unit>
+<trans-unit id="6" mq:minorversionend="2" mq:minorversionstart="1" mq:status="ManuallyConfirmed" mq:percent="101" mq:segmentguid="8a9c17f2-a9c0-4659-873d-0ff883826d17" mq:translatorcommitmatchrate="101" mq:translatorcommitusername="" mq:translatorcommittimestamp="2020-10-29T13:03:01Z" mq:lastchangedtimestamp="2020-10-29T13:03:01Z" mq:lastchanginguser="jourikc" mq:maxlengthchars="-1" mq:nosplitjoin="false" mq:firstlabel="7" mq:lastlabel="7" mq:autosplitjoinstate="0" mq:lastmodifrole="0" mq:multipleexactmatch="false">
+<source xml:space="preserve" mq:segpart="7">If you want newlines to be preserved as hard line breaks, you can add the <ph id="1">&lt;mq:rxt displaytext=&quot;`&quot; val=&quot;`&quot; /&gt;</ph>hardbreaks<ph id="2">&lt;mq:rxt displaytext=&quot;`&quot; val=&quot;`&quot; /&gt;</ph> option to the paragraph.</source>
+<target xml:space="preserve">Si desea que las nuevas líneas se conserven como rupturas de línea duras, puede añadir al párrafo la opción <ph id="1">&lt;mq:rxt displaytext=&quot;`&quot; val=&quot;`&quot; /&gt;</ph>hardbreaks<ph id="2">&lt;mq:rxt displaytext=&quot;`&quot; val=&quot;`&quot; /&gt;</ph>.</target>
+<context-group>
+<context context-type="x-mmq-structural-context"></context>
+</context-group>
+<mq:minorversions>
+<mq:historical-unit mq:minorversionend="0" mq:minorversionstart="0" mq:status="NotStarted" mq:segmentguid="8a9c17f2-a9c0-4659-873d-0ff883826d17" mq:lastchangedtimestamp="0001-01-01T00:00:00Z" mq:maxlengthchars="-1" mq:nosplitjoin="false" mq:firstlabel="7" mq:lastlabel="7" mq:autosplitjoinstate="0" mq:lastmodifrole="0" mq:multipleexactmatch="false">
+<source xml:space="preserve" mq:segpart="7" mq:hasfollowingobject="hasfollowingobject">If you want newlines to be preserved as hard line breaks, you can add the <ph id="1">&lt;mq:rxt displaytext=&quot;`&quot; val=&quot;`&quot; /&gt;</ph>hardbreaks<ph id="2">&lt;mq:rxt displaytext=&quot;`&quot; val=&quot;`&quot; /&gt;</ph> option to the paragraph.</source>
+<target xml:space="preserve"></target>
+<context-group>
+<context context-type="x-mmq-structural-context"></context>
+</context-group>
+<mq:startingws xml:space="preserve" />
+<mq:endingws xml:space="preserve" />
+<mq:commitinfos xmlns="MQXliff" /><mq:nosplitjoins />
+<mq:originalsource edited="false" />
+</mq:historical-unit>
+</mq:minorversions>
+<mq:startingws xml:space="preserve" />
+<mq:endingws xml:space="preserve" />
+<mq:commitinfos xmlns="MQXliff"><commitinfo matchrate="101" role="1000" timestamp="2020-10-29T13:03:01Z" username="" editingtime="0" /></mq:commitinfos><mq:nosplitjoins />
+<mq:originalsource edited="false" />
+<mq:insertedmatch matchtype="0" source="Asciidoc samples / jourikc" matchrate="101" originalmatchrate="0" ambiguousexact="false" hitfororiginalsegementversion="false" />
+</trans-unit>
+<trans-unit id="7" mq:minorversionend="2" mq:minorversionstart="1" mq:status="ManuallyConfirmed" mq:percent="101" mq:segmentguid="9312e0e0-9d68-4f07-863f-5a9a29dfed9f" mq:translatorcommitmatchrate="101" mq:translatorcommitusername="" mq:translatorcommittimestamp="2020-10-29T13:03:01Z" mq:lastchangedtimestamp="2020-10-29T13:03:01Z" mq:lastchanginguser="jourikc" mq:maxlengthchars="-1" mq:nosplitjoin="false" mq:firstlabel="8" mq:lastlabel="10" mq:autosplitjoinstate="0" mq:lastmodifrole="0" mq:multipleexactmatch="false">
+<source xml:space="preserve" mq:segpart="10" mq:hasfollowingobject="hasfollowingobject">first line<x id="1" />second line<x id="2" />third line</source>
+<target xml:space="preserve">primera línea<x id="1" />segunda línea<x id="2" />tercera línea</target>
+<context-group>
+<context context-type="x-mmq-structural-context"></context>
+</context-group>
+<mq:minorversions>
+<mq:historical-unit mq:minorversionend="0" mq:minorversionstart="0" mq:status="NotStarted" mq:segmentguid="9312e0e0-9d68-4f07-863f-5a9a29dfed9f" mq:lastchangedtimestamp="0001-01-01T00:00:00Z" mq:maxlengthchars="-1" mq:nosplitjoin="false" mq:firstlabel="8" mq:lastlabel="10" mq:autosplitjoinstate="0" mq:lastmodifrole="0" mq:multipleexactmatch="false">
+<source xml:space="preserve" mq:segpart="10" mq:hasfollowingobject="hasfollowingobject">first line<x id="1" />second line<x id="2" />third line</source>
+<target xml:space="preserve"></target>
+<context-group>
+<context context-type="x-mmq-structural-context"></context>
+</context-group>
+<mq:startingws xml:space="preserve" />
+<mq:endingws xml:space="preserve" />
+<mq:commitinfos xmlns="MQXliff" /><mq:nosplitjoins />
+<mq:originalsource edited="false" />
+</mq:historical-unit>
+</mq:minorversions>
+<mq:startingws xml:space="preserve" />
+<mq:endingws xml:space="preserve" />
+<mq:commitinfos xmlns="MQXliff"><commitinfo matchrate="101" role="1000" timestamp="2020-10-29T13:03:01Z" username="" editingtime="0" /></mq:commitinfos><mq:nosplitjoins />
+<mq:originalsource edited="false" />
+<mq:insertedmatch matchtype="0" source="Asciidoc samples / jourikc" matchrate="101" originalmatchrate="0" ambiguousexact="false" hitfororiginalsegementversion="false" />
+</trans-unit>
+<trans-unit id="8" mq:minorversionend="2" mq:minorversionstart="1" mq:status="ManuallyConfirmed" mq:percent="101" mq:segmentguid="16a1e12f-4cc0-4f25-af25-5228057fb45d" mq:translatorcommitmatchrate="101" mq:translatorcommitusername="" mq:translatorcommittimestamp="2020-10-29T13:03:01Z" mq:lastchangedtimestamp="2020-10-29T13:03:01Z" mq:lastchanginguser="jourikc" mq:maxlengthchars="-1" mq:nosplitjoin="false" mq:firstlabel="11" mq:lastlabel="11" mq:autosplitjoinstate="0" mq:lastmodifrole="0" mq:multipleexactmatch="false">
+<source xml:space="preserve" mq:segpart="11">If you want to set this option globally, define the <ph id="1">&lt;mq:rxt displaytext=&quot;`&quot; val=&quot;`&quot; /&gt;</ph>hardbreaks<ph id="2">&lt;mq:rxt displaytext=&quot;`&quot; val=&quot;`&quot; /&gt;</ph> attribute in the document header (but know what you are doing).</source>
+<target xml:space="preserve">Si desea establecer esta opción a nivel mundial, defina el atributo <ph id="1">&lt;mq:rxt displaytext=&quot;`&quot; val=&quot;`&quot; /&gt;</ph>hardbreaks<ph id="2">&lt;mq:rxt displaytext=&quot;`&quot; val=&quot;`&quot; /&gt;</ph> en el encabezado del documento (pero sepa lo que está haciendo).</target>
+<context-group>
+<context context-type="x-mmq-structural-context"></context>
+</context-group>
+<mq:minorversions>
+<mq:historical-unit mq:minorversionend="0" mq:minorversionstart="0" mq:status="NotStarted" mq:segmentguid="16a1e12f-4cc0-4f25-af25-5228057fb45d" mq:lastchangedtimestamp="0001-01-01T00:00:00Z" mq:maxlengthchars="-1" mq:nosplitjoin="false" mq:firstlabel="11" mq:lastlabel="11" mq:autosplitjoinstate="0" mq:lastmodifrole="0" mq:multipleexactmatch="false">
+<source xml:space="preserve" mq:segpart="11" mq:hasfollowingobject="hasfollowingobject">If you want to set this option globally, define the <ph id="1">&lt;mq:rxt displaytext=&quot;`&quot; val=&quot;`&quot; /&gt;</ph>hardbreaks<ph id="2">&lt;mq:rxt displaytext=&quot;`&quot; val=&quot;`&quot; /&gt;</ph> attribute in the document header (but know what you are doing).</source>
+<target xml:space="preserve"></target>
+<context-group>
+<context context-type="x-mmq-structural-context"></context>
+</context-group>
+<mq:startingws xml:space="preserve" />
+<mq:endingws xml:space="preserve" />
+<mq:commitinfos xmlns="MQXliff" /><mq:nosplitjoins />
+<mq:originalsource edited="false" />
+</mq:historical-unit>
+</mq:minorversions>
+<mq:startingws xml:space="preserve" />
+<mq:endingws xml:space="preserve" />
+<mq:commitinfos xmlns="MQXliff"><commitinfo matchrate="101" role="1000" timestamp="2020-10-29T13:03:01Z" username="" editingtime="0" /></mq:commitinfos><mq:nosplitjoins />
+<mq:originalsource edited="false" />
+<mq:insertedmatch matchtype="0" source="Asciidoc samples / jourikc" matchrate="101" originalmatchrate="0" ambiguousexact="false" hitfororiginalsegementversion="false" />
+</trans-unit>
+<trans-unit id="9" mq:minorversionend="2" mq:minorversionstart="1" mq:status="ManuallyConfirmed" mq:percent="101" mq:segmentguid="c17852ae-05e7-4613-8ddb-5eb9a7a84533" mq:translatorcommitmatchrate="101" mq:translatorcommitusername="" mq:translatorcommittimestamp="2020-10-29T13:03:01Z" mq:lastchangedtimestamp="2020-10-29T13:03:01Z" mq:lastchanginguser="jourikc" mq:maxlengthchars="-1" mq:nosplitjoin="false" mq:firstlabel="12" mq:lastlabel="12" mq:autosplitjoinstate="0" mq:lastmodifrole="0" mq:multipleexactmatch="false">
+<source xml:space="preserve" mq:segpart="12">A third option is to add explicit hard line breaks in the source by adding a space followed by a plus to the end of the line.</source>
+<target xml:space="preserve">Una tercera opción es añadir cortes de línea explícitos en la fuente añadiendo un espacio seguido de un signo positivo al final de la línea.</target>
+<context-group>
+<context context-type="x-mmq-structural-context"></context>
+</context-group>
+<mq:minorversions>
+<mq:historical-unit mq:minorversionend="0" mq:minorversionstart="0" mq:status="NotStarted" mq:segmentguid="c17852ae-05e7-4613-8ddb-5eb9a7a84533" mq:lastchangedtimestamp="0001-01-01T00:00:00Z" mq:maxlengthchars="-1" mq:nosplitjoin="false" mq:firstlabel="12" mq:lastlabel="12" mq:autosplitjoinstate="0" mq:lastmodifrole="0" mq:multipleexactmatch="false">
+<source xml:space="preserve" mq:segpart="12" mq:hasfollowingobject="hasfollowingobject">A third option is to add explicit hard line breaks in the source by adding a space followed by a plus to the end of the line.</source>
+<target xml:space="preserve"></target>
+<context-group>
+<context context-type="x-mmq-structural-context"></context>
+</context-group>
+<mq:startingws xml:space="preserve" />
+<mq:endingws xml:space="preserve" />
+<mq:commitinfos xmlns="MQXliff" /><mq:nosplitjoins />
+<mq:originalsource edited="false" />
+</mq:historical-unit>
+</mq:minorversions>
+<mq:startingws xml:space="preserve" />
+<mq:endingws xml:space="preserve" />
+<mq:commitinfos xmlns="MQXliff"><commitinfo matchrate="101" role="1000" timestamp="2020-10-29T13:03:01Z" username="" editingtime="0" /></mq:commitinfos><mq:nosplitjoins />
+<mq:originalsource edited="false" />
+<mq:insertedmatch matchtype="0" source="Asciidoc samples / jourikc" matchrate="101" originalmatchrate="0" ambiguousexact="false" hitfororiginalsegementversion="false" />
+</trans-unit>
+<trans-unit id="10" mq:minorversionend="2" mq:minorversionstart="1" mq:status="ManuallyConfirmed" mq:percent="101" mq:segmentguid="d9a8d57f-5785-4984-838d-0086f8f76f87" mq:translatorcommitmatchrate="101" mq:translatorcommitusername="" mq:translatorcommittimestamp="2020-10-29T13:03:01Z" mq:lastchangedtimestamp="2020-10-29T13:03:01Z" mq:lastchanginguser="jourikc" mq:maxlengthchars="-1" mq:nosplitjoin="false" mq:firstlabel="13" mq:lastlabel="15" mq:autosplitjoinstate="0" mq:lastmodifrole="0" mq:multipleexactmatch="false">
+<source xml:space="preserve" mq:segpart="15" mq:hasfollowingobject="hasfollowingobject">first line <ph id="1">&lt;mq:rxt displaytext=&quot;+&quot; val=&quot;+&quot; /&gt;</ph><x id="2" />second line <ph id="3">&lt;mq:rxt displaytext=&quot;+&quot; val=&quot;+&quot; /&gt;</ph><x id="4" />third line</source>
+<target xml:space="preserve">primera línea <ph id="1">&lt;mq:rxt displaytext=&quot;+&quot; val=&quot;+&quot; /&gt;</ph><x id="2" />segunda línea <ph id="3">&lt;mq:rxt displaytext=&quot;+&quot; val=&quot;+&quot; /&gt;</ph><x id="4" />tercera línea</target>
+<context-group>
+<context context-type="x-mmq-structural-context"></context>
+</context-group>
+<mq:minorversions>
+<mq:historical-unit mq:minorversionend="0" mq:minorversionstart="0" mq:status="NotStarted" mq:segmentguid="d9a8d57f-5785-4984-838d-0086f8f76f87" mq:lastchangedtimestamp="0001-01-01T00:00:00Z" mq:maxlengthchars="-1" mq:nosplitjoin="false" mq:firstlabel="13" mq:lastlabel="15" mq:autosplitjoinstate="0" mq:lastmodifrole="0" mq:multipleexactmatch="false">
+<source xml:space="preserve" mq:segpart="15" mq:hasfollowingobject="hasfollowingobject">first line <ph id="1">&lt;mq:rxt displaytext=&quot;+&quot; val=&quot;+&quot; /&gt;</ph><x id="2" />second line <ph id="3">&lt;mq:rxt displaytext=&quot;+&quot; val=&quot;+&quot; /&gt;</ph><x id="4" />third line</source>
+<target xml:space="preserve"></target>
+<context-group>
+<context context-type="x-mmq-structural-context"></context>
+</context-group>
+<mq:startingws xml:space="preserve" />
+<mq:endingws xml:space="preserve" />
+<mq:commitinfos xmlns="MQXliff" /><mq:nosplitjoins />
+<mq:originalsource edited="false" />
+</mq:historical-unit>
+</mq:minorversions>
+<mq:startingws xml:space="preserve" />
+<mq:endingws xml:space="preserve" />
+<mq:commitinfos xmlns="MQXliff"><commitinfo matchrate="101" role="1000" timestamp="2020-10-29T13:03:01Z" username="" editingtime="0" /></mq:commitinfos><mq:nosplitjoins />
+<mq:originalsource edited="false" />
+<mq:insertedmatch matchtype="0" source="Asciidoc samples / jourikc" matchrate="101" originalmatchrate="0" ambiguousexact="false" hitfororiginalsegementversion="false" />
+</trans-unit>
+<trans-unit id="11" mq:minorversionend="2" mq:minorversionstart="1" mq:status="ManuallyConfirmed" mq:percent="101" mq:segmentguid="98f70edb-8f4b-4045-a761-b3bc56607106" mq:translatorcommitmatchrate="101" mq:translatorcommitusername="" mq:translatorcommittimestamp="2020-10-29T13:03:01Z" mq:lastchangedtimestamp="2020-10-29T13:03:01Z" mq:lastchanginguser="jourikc" mq:maxlengthchars="-1" mq:nosplitjoin="false" mq:firstlabel="16" mq:lastlabel="16" mq:autosplitjoinstate="0" mq:lastmodifrole="0" mq:multipleexactmatch="false">
+<source xml:space="preserve" mq:segpart="16">Newlines are always preserved in preformatted blocks, such as a literal paragraph, literal block, or listing block.</source>
+<target xml:space="preserve">Las nuevas líneas siempre se conservan en bloques preformateados, como un párrafo literal, un bloque literal o un bloque de listado.</target>
+<context-group>
+<context context-type="x-mmq-structural-context"></context>
+</context-group>
+<mq:minorversions>
+<mq:historical-unit mq:minorversionend="0" mq:minorversionstart="0" mq:status="NotStarted" mq:segmentguid="98f70edb-8f4b-4045-a761-b3bc56607106" mq:lastchangedtimestamp="0001-01-01T00:00:00Z" mq:maxlengthchars="-1" mq:nosplitjoin="false" mq:firstlabel="16" mq:lastlabel="16" mq:autosplitjoinstate="0" mq:lastmodifrole="0" mq:multipleexactmatch="false">
+<source xml:space="preserve" mq:segpart="16" mq:hasfollowingobject="hasfollowingobject">Newlines are always preserved in preformatted blocks, such as a literal paragraph, literal block, or listing block.</source>
+<target xml:space="preserve"></target>
+<context-group>
+<context context-type="x-mmq-structural-context"></context>
+</context-group>
+<mq:startingws xml:space="preserve" />
+<mq:endingws xml:space="preserve" />
+<mq:commitinfos xmlns="MQXliff" /><mq:nosplitjoins />
+<mq:originalsource edited="false" />
+</mq:historical-unit>
+</mq:minorversions>
+<mq:startingws xml:space="preserve" />
+<mq:endingws xml:space="preserve" />
+<mq:commitinfos xmlns="MQXliff"><commitinfo matchrate="101" role="1000" timestamp="2020-10-29T13:03:01Z" username="" editingtime="0" /></mq:commitinfos><mq:nosplitjoins />
+<mq:originalsource edited="false" />
+<mq:insertedmatch matchtype="0" source="Asciidoc samples / jourikc" matchrate="101" originalmatchrate="0" ambiguousexact="false" hitfororiginalsegementversion="false" />
+</trans-unit>
+<trans-unit id="12" mq:minorversionend="2" mq:minorversionstart="1" mq:status="ManuallyConfirmed" mq:percent="101" mq:segmentguid="2afa9973-17be-4106-9a64-0173fc5d0899" mq:translatorcommitmatchrate="101" mq:translatorcommitusername="" mq:translatorcommittimestamp="2020-10-29T13:03:01Z" mq:lastchangedtimestamp="2020-10-29T13:03:01Z" mq:lastchanginguser="jourikc" mq:maxlengthchars="-1" mq:nosplitjoin="false" mq:firstlabel="17" mq:lastlabel="19" mq:autosplitjoinstate="0" mq:lastmodifrole="0" mq:multipleexactmatch="false">
+<source xml:space="preserve" mq:segpart="19" mq:hasfollowingobject="hasfollowingobject">first line<x id="1" /> second line<x id="2" /> third line</source>
+<target xml:space="preserve">primera línea<x id="1" /> segunda línea<x id="2" /> tercera línea</target>
+<context-group>
+<context context-type="x-mmq-structural-context"></context>
+</context-group>
+<mq:minorversions>
+<mq:historical-unit mq:minorversionend="0" mq:minorversionstart="0" mq:status="NotStarted" mq:segmentguid="2afa9973-17be-4106-9a64-0173fc5d0899" mq:lastchangedtimestamp="0001-01-01T00:00:00Z" mq:maxlengthchars="-1" mq:nosplitjoin="false" mq:firstlabel="17" mq:lastlabel="19" mq:autosplitjoinstate="0" mq:lastmodifrole="0" mq:multipleexactmatch="false">
+<source xml:space="preserve" mq:segpart="19" mq:hasfollowingobject="hasfollowingobject">first line<x id="1" /> second line<x id="2" /> third line</source>
+<target xml:space="preserve"></target>
+<context-group>
+<context context-type="x-mmq-structural-context"></context>
+</context-group>
+<mq:startingws xml:space="preserve"> </mq:startingws>
+<mq:endingws xml:space="preserve" />
+<mq:commitinfos xmlns="MQXliff" /><mq:nosplitjoins />
+<mq:originalsource edited="false" />
+</mq:historical-unit>
+</mq:minorversions>
+<mq:startingws xml:space="preserve"> </mq:startingws>
+<mq:endingws xml:space="preserve" />
+<mq:commitinfos xmlns="MQXliff"><commitinfo matchrate="101" role="1000" timestamp="2020-10-29T13:03:01Z" username="" editingtime="0" /></mq:commitinfos><mq:nosplitjoins />
+<mq:originalsource edited="false" />
+<mq:insertedmatch matchtype="0" source="Asciidoc samples / jourikc" matchrate="101" originalmatchrate="0" ambiguousexact="false" hitfororiginalsegementversion="false" />
+</trans-unit>
+</body>
+</file>
+</xliff>
