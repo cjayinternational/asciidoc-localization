@@ -21,10 +21,7 @@
   </ParagraphSettings>
   <IncludeExcludeSettings IncludeContent="no" />
   <ReferenceFiles>
-    <ReferenceFilePath>C:\Users\jourikc\Desktop\YIT\Asciidoc\asciidoc\systemguide.adoc</ReferenceFilePath>
-    <ReferenceFilePath>O:\YIT\Asciidoc\asciidoc\Sample.adoc</ReferenceFilePath>
     <ReferenceFilePath>\\fileserverhome\users$\jourikc\Desktop\Asciidoc\asciidoc-samples-master\demo.adoc</ReferenceFilePath>
-    <ReferenceFilePath>\\fileserverhome\users$\jourikc\Desktop\Asciidoc\Source_Asciidoc\runtime.adoc</ReferenceFilePath>
   </ReferenceFiles>
 </MemoQFilterConfiguration>
 </ChainedFilterConfigurationElement>
